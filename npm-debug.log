@@ -1,0 +1,1590 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/lib/node_modules/npm/bin/npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--scripts-prepend-node-path=auto' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose readDependencies loading dependencies from /Users/chiragagarwal/Downloads/startbootstrap-agency-gh-pages/package.json
+5 verbose install where, deps [ '/Users/chiragagarwal/Downloads/startbootstrap-agency-gh-pages',
+5 verbose install   [ 'bootstrap',
+5 verbose install     'font-awesome',
+5 verbose install     'jquery',
+5 verbose install     'jquery.easing',
+5 verbose install     'browser-sync',
+5 verbose install     'gulp',
+5 verbose install     'gulp-clean-css',
+5 verbose install     'gulp-header',
+5 verbose install     'gulp-rename',
+5 verbose install     'gulp-sass',
+5 verbose install     'gulp-uglify' ] ]
+6 verbose install where, peers [ '/Users/chiragagarwal/Downloads/startbootstrap-agency-gh-pages',
+6 verbose install   [] ]
+7 verbose installManyTop reading for lifecycle /Users/chiragagarwal/Downloads/startbootstrap-agency-gh-pages/package.json
+8 info preinstall startbootstrap-agency@4.0.0
+9 verbose readDependencies loading dependencies from /Users/chiragagarwal/Downloads/startbootstrap-agency-gh-pages/package.json
+10 silly cache add args [ 'jquery.easing@^1.4.1', null ]
+11 verbose cache add spec jquery.easing@^1.4.1
+12 silly cache add parsed spec { raw: 'jquery.easing@^1.4.1',
+12 silly cache add   scope: null,
+12 silly cache add   name: 'jquery.easing',
+12 silly cache add   rawSpec: '^1.4.1',
+12 silly cache add   spec: '>=1.4.1 <2.0.0',
+12 silly cache add   type: 'range' }
+13 silly addNamed jquery.easing@>=1.4.1 <2.0.0
+14 verbose addNamed ">=1.4.1 <2.0.0" is a valid semver range for jquery.easing
+15 silly addNameRange { name: 'jquery.easing',
+15 silly addNameRange   range: '>=1.4.1 <2.0.0',
+15 silly addNameRange   hasData: false }
+16 silly mapToRegistry name jquery.easing
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry uri https://registry.npmjs.org/jquery.easing
+20 verbose addNameRange registry:https://registry.npmjs.org/jquery.easing not in flight; fetching
+21 silly cache add args [ 'browser-sync@2.23.6', null ]
+22 verbose cache add spec browser-sync@2.23.6
+23 silly cache add parsed spec { raw: 'browser-sync@2.23.6',
+23 silly cache add   scope: null,
+23 silly cache add   name: 'browser-sync',
+23 silly cache add   rawSpec: '2.23.6',
+23 silly cache add   spec: '2.23.6',
+23 silly cache add   type: 'version' }
+24 silly addNamed browser-sync@2.23.6
+25 verbose addNamed "2.23.6" is a plain semver version for browser-sync
+26 silly mapToRegistry name browser-sync
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry uri https://registry.npmjs.org/browser-sync
+30 verbose addNameVersion registry:https://registry.npmjs.org/browser-sync not in flight; fetching
+31 silly cache add args [ 'gulp@^3.9.1', null ]
+32 verbose cache add spec gulp@^3.9.1
+33 silly cache add parsed spec { raw: 'gulp@^3.9.1',
+33 silly cache add   scope: null,
+33 silly cache add   name: 'gulp',
+33 silly cache add   rawSpec: '^3.9.1',
+33 silly cache add   spec: '>=3.9.1 <4.0.0',
+33 silly cache add   type: 'range' }
+34 silly addNamed gulp@>=3.9.1 <4.0.0
+35 verbose addNamed ">=3.9.1 <4.0.0" is a valid semver range for gulp
+36 silly addNameRange { name: 'gulp', range: '>=3.9.1 <4.0.0', hasData: false }
+37 silly mapToRegistry name gulp
+38 silly mapToRegistry using default registry
+39 silly mapToRegistry registry https://registry.npmjs.org/
+40 silly mapToRegistry uri https://registry.npmjs.org/gulp
+41 verbose addNameRange registry:https://registry.npmjs.org/gulp not in flight; fetching
+42 silly cache add args [ 'gulp-clean-css@3.9.2', null ]
+43 verbose cache add spec gulp-clean-css@3.9.2
+44 silly cache add parsed spec { raw: 'gulp-clean-css@3.9.2',
+44 silly cache add   scope: null,
+44 silly cache add   name: 'gulp-clean-css',
+44 silly cache add   rawSpec: '3.9.2',
+44 silly cache add   spec: '3.9.2',
+44 silly cache add   type: 'version' }
+45 silly addNamed gulp-clean-css@3.9.2
+46 verbose addNamed "3.9.2" is a plain semver version for gulp-clean-css
+47 silly mapToRegistry name gulp-clean-css
+48 silly mapToRegistry using default registry
+49 silly mapToRegistry registry https://registry.npmjs.org/
+50 silly mapToRegistry uri https://registry.npmjs.org/gulp-clean-css
+51 verbose addNameVersion registry:https://registry.npmjs.org/gulp-clean-css not in flight; fetching
+52 silly cache add args [ 'gulp-header@2.0.1', null ]
+53 verbose cache add spec gulp-header@2.0.1
+54 silly cache add parsed spec { raw: 'gulp-header@2.0.1',
+54 silly cache add   scope: null,
+54 silly cache add   name: 'gulp-header',
+54 silly cache add   rawSpec: '2.0.1',
+54 silly cache add   spec: '2.0.1',
+54 silly cache add   type: 'version' }
+55 silly addNamed gulp-header@2.0.1
+56 verbose addNamed "2.0.1" is a plain semver version for gulp-header
+57 silly mapToRegistry name gulp-header
+58 silly mapToRegistry using default registry
+59 silly mapToRegistry registry https://registry.npmjs.org/
+60 silly mapToRegistry uri https://registry.npmjs.org/gulp-header
+61 verbose addNameVersion registry:https://registry.npmjs.org/gulp-header not in flight; fetching
+62 silly cache add args [ 'gulp-rename@^1.2.2', null ]
+63 verbose cache add spec gulp-rename@^1.2.2
+64 silly cache add parsed spec { raw: 'gulp-rename@^1.2.2',
+64 silly cache add   scope: null,
+64 silly cache add   name: 'gulp-rename',
+64 silly cache add   rawSpec: '^1.2.2',
+64 silly cache add   spec: '>=1.2.2 <2.0.0',
+64 silly cache add   type: 'range' }
+65 silly addNamed gulp-rename@>=1.2.2 <2.0.0
+66 verbose addNamed ">=1.2.2 <2.0.0" is a valid semver range for gulp-rename
+67 silly addNameRange { name: 'gulp-rename', range: '>=1.2.2 <2.0.0', hasData: false }
+68 silly mapToRegistry name gulp-rename
+69 silly mapToRegistry using default registry
+70 silly mapToRegistry registry https://registry.npmjs.org/
+71 silly mapToRegistry uri https://registry.npmjs.org/gulp-rename
+72 verbose addNameRange registry:https://registry.npmjs.org/gulp-rename not in flight; fetching
+73 silly cache add args [ 'gulp-sass@^3.1.0', null ]
+74 verbose cache add spec gulp-sass@^3.1.0
+75 silly cache add parsed spec { raw: 'gulp-sass@^3.1.0',
+75 silly cache add   scope: null,
+75 silly cache add   name: 'gulp-sass',
+75 silly cache add   rawSpec: '^3.1.0',
+75 silly cache add   spec: '>=3.1.0 <4.0.0',
+75 silly cache add   type: 'range' }
+76 silly addNamed gulp-sass@>=3.1.0 <4.0.0
+77 verbose addNamed ">=3.1.0 <4.0.0" is a valid semver range for gulp-sass
+78 silly addNameRange { name: 'gulp-sass', range: '>=3.1.0 <4.0.0', hasData: false }
+79 silly mapToRegistry name gulp-sass
+80 silly mapToRegistry using default registry
+81 silly mapToRegistry registry https://registry.npmjs.org/
+82 silly mapToRegistry uri https://registry.npmjs.org/gulp-sass
+83 verbose addNameRange registry:https://registry.npmjs.org/gulp-sass not in flight; fetching
+84 silly cache add args [ 'gulp-uglify@3.0.0', null ]
+85 verbose cache add spec gulp-uglify@3.0.0
+86 silly cache add parsed spec { raw: 'gulp-uglify@3.0.0',
+86 silly cache add   scope: null,
+86 silly cache add   name: 'gulp-uglify',
+86 silly cache add   rawSpec: '3.0.0',
+86 silly cache add   spec: '3.0.0',
+86 silly cache add   type: 'version' }
+87 silly addNamed gulp-uglify@3.0.0
+88 verbose addNamed "3.0.0" is a plain semver version for gulp-uglify
+89 silly mapToRegistry name gulp-uglify
+90 silly mapToRegistry using default registry
+91 silly mapToRegistry registry https://registry.npmjs.org/
+92 silly mapToRegistry uri https://registry.npmjs.org/gulp-uglify
+93 verbose addNameVersion registry:https://registry.npmjs.org/gulp-uglify not in flight; fetching
+94 silly cache add args [ 'bootstrap@4.0.0', null ]
+95 verbose cache add spec bootstrap@4.0.0
+96 silly cache add parsed spec { raw: 'bootstrap@4.0.0',
+96 silly cache add   scope: null,
+96 silly cache add   name: 'bootstrap',
+96 silly cache add   rawSpec: '4.0.0',
+96 silly cache add   spec: '4.0.0',
+96 silly cache add   type: 'version' }
+97 silly addNamed bootstrap@4.0.0
+98 verbose addNamed "4.0.0" is a plain semver version for bootstrap
+99 silly mapToRegistry name bootstrap
+100 silly mapToRegistry using default registry
+101 silly mapToRegistry registry https://registry.npmjs.org/
+102 silly mapToRegistry uri https://registry.npmjs.org/bootstrap
+103 verbose addNameVersion registry:https://registry.npmjs.org/bootstrap not in flight; fetching
+104 silly cache add args [ 'font-awesome@4.7.0', null ]
+105 verbose cache add spec font-awesome@4.7.0
+106 silly cache add parsed spec { raw: 'font-awesome@4.7.0',
+106 silly cache add   scope: null,
+106 silly cache add   name: 'font-awesome',
+106 silly cache add   rawSpec: '4.7.0',
+106 silly cache add   spec: '4.7.0',
+106 silly cache add   type: 'version' }
+107 silly addNamed font-awesome@4.7.0
+108 verbose addNamed "4.7.0" is a plain semver version for font-awesome
+109 silly mapToRegistry name font-awesome
+110 silly mapToRegistry using default registry
+111 silly mapToRegistry registry https://registry.npmjs.org/
+112 silly mapToRegistry uri https://registry.npmjs.org/font-awesome
+113 verbose addNameVersion registry:https://registry.npmjs.org/font-awesome not in flight; fetching
+114 silly cache add args [ 'jquery@3.3.1', null ]
+115 verbose cache add spec jquery@3.3.1
+116 silly cache add parsed spec { raw: 'jquery@3.3.1',
+116 silly cache add   scope: null,
+116 silly cache add   name: 'jquery',
+116 silly cache add   rawSpec: '3.3.1',
+116 silly cache add   spec: '3.3.1',
+116 silly cache add   type: 'version' }
+117 silly addNamed jquery@3.3.1
+118 verbose addNamed "3.3.1" is a plain semver version for jquery
+119 silly mapToRegistry name jquery
+120 silly mapToRegistry using default registry
+121 silly mapToRegistry registry https://registry.npmjs.org/
+122 silly mapToRegistry uri https://registry.npmjs.org/jquery
+123 verbose addNameVersion registry:https://registry.npmjs.org/jquery not in flight; fetching
+124 verbose request uri https://registry.npmjs.org/jquery.easing
+125 verbose request no auth needed
+126 info attempt registry request try #1 at 6:09:03 PM
+127 verbose request id ab162f7c2524c9ba
+128 http request GET https://registry.npmjs.org/jquery.easing
+129 verbose request uri https://registry.npmjs.org/browser-sync
+130 verbose request no auth needed
+131 info attempt registry request try #1 at 6:09:03 PM
+132 http request GET https://registry.npmjs.org/browser-sync
+133 verbose request uri https://registry.npmjs.org/gulp
+134 verbose request no auth needed
+135 info attempt registry request try #1 at 6:09:03 PM
+136 http request GET https://registry.npmjs.org/gulp
+137 verbose request uri https://registry.npmjs.org/gulp-clean-css
+138 verbose request no auth needed
+139 info attempt registry request try #1 at 6:09:03 PM
+140 http request GET https://registry.npmjs.org/gulp-clean-css
+141 verbose request uri https://registry.npmjs.org/gulp-header
+142 verbose request no auth needed
+143 info attempt registry request try #1 at 6:09:03 PM
+144 http request GET https://registry.npmjs.org/gulp-header
+145 verbose request uri https://registry.npmjs.org/gulp-rename
+146 verbose request no auth needed
+147 info attempt registry request try #1 at 6:09:03 PM
+148 http request GET https://registry.npmjs.org/gulp-rename
+149 verbose request uri https://registry.npmjs.org/gulp-sass
+150 verbose request no auth needed
+151 info attempt registry request try #1 at 6:09:03 PM
+152 http request GET https://registry.npmjs.org/gulp-sass
+153 verbose request uri https://registry.npmjs.org/gulp-uglify
+154 verbose request no auth needed
+155 info attempt registry request try #1 at 6:09:03 PM
+156 http request GET https://registry.npmjs.org/gulp-uglify
+157 verbose request uri https://registry.npmjs.org/bootstrap
+158 verbose request no auth needed
+159 info attempt registry request try #1 at 6:09:03 PM
+160 http request GET https://registry.npmjs.org/bootstrap
+161 verbose request uri https://registry.npmjs.org/font-awesome
+162 verbose request no auth needed
+163 info attempt registry request try #1 at 6:09:03 PM
+164 http request GET https://registry.npmjs.org/font-awesome
+165 verbose request uri https://registry.npmjs.org/jquery
+166 verbose request no auth needed
+167 info attempt registry request try #1 at 6:09:03 PM
+168 http request GET https://registry.npmjs.org/jquery
+169 http 200 https://registry.npmjs.org/gulp-rename
+170 silly get cb [ 200,
+170 silly get   { 'content-type': 'application/json; charset=UTF-8',
+170 silly get     server: 'UploadServer',
+170 silly get     'cache-control': 'max-age=300',
+170 silly get     'last-modified': 'Thu, 15 Mar 2018 4:51:58 GMT',
+170 silly get     etag: '"5aa9fbee-3f96"',
+170 silly get     'x-npm-region': 'US-East',
+170 silly get     'content-encoding': 'gzip',
+170 silly get     'content-length': '4512',
+170 silly get     'accept-ranges': 'bytes',
+170 silly get     date: 'Sun, 18 Mar 2018 22:09:03 GMT',
+170 silly get     via: '1.1 varnish',
+170 silly get     age: '3902',
+170 silly get     connection: 'keep-alive',
+170 silly get     'x-served-by': 'cache-dca17736-DCA',
+170 silly get     'x-cache': 'HIT',
+170 silly get     'x-cache-hits': '3',
+170 silly get     'x-timer': 'S1521410943.447181,VS0,VE0',
+170 silly get     vary: 'Accept-Encoding, Accept' } ]
+171 verbose get saving gulp-rename to /Users/chiragagarwal/.npm/registry.npmjs.org/gulp-rename/.cache.json
+172 http 200 https://registry.npmjs.org/jquery.easing
+173 silly get cb [ 200,
+173 silly get   { 'content-type': 'application/json; charset=UTF-8',
+173 silly get     server: 'UploadServer',
+173 silly get     'cache-control': 'max-age=300',
+173 silly get     'last-modified': 'Wed, 21 Feb 2018 19:49:44 GMT',
+173 silly get     etag: '"5a8dcd58-204f"',
+173 silly get     'x-npm-region': 'US-East',
+173 silly get     'content-encoding': 'gzip',
+173 silly get     'content-length': '1904',
+173 silly get     'accept-ranges': 'bytes',
+173 silly get     date: 'Sun, 18 Mar 2018 22:09:03 GMT',
+173 silly get     via: '1.1 varnish',
+173 silly get     age: '415',
+173 silly get     connection: 'keep-alive',
+173 silly get     'x-served-by': 'cache-dca17734-DCA',
+173 silly get     'x-cache': 'HIT',
+173 silly get     'x-cache-hits': '1',
+173 silly get     'x-timer': 'S1521410943.445791,VS0,VE1',
+173 silly get     vary: 'Accept-Encoding, Accept' } ]
+174 verbose get saving jquery.easing to /Users/chiragagarwal/.npm/registry.npmjs.org/jquery.easing/.cache.json
+175 http 200 https://registry.npmjs.org/font-awesome
+176 silly get cb [ 200,
+176 silly get   { 'content-type': 'application/json; charset=UTF-8',
+176 silly get     server: 'UploadServer',
+176 silly get     'cache-control': 'max-age=300',
+176 silly get     'last-modified': 'Sat, 10 Mar 2018 3:30:56 GMT',
+176 silly get     etag: '"5aa35170-5a66"',
+176 silly get     'x-npm-region': 'US-East',
+176 silly get     'content-encoding': 'gzip',
+176 silly get     'content-length': '5034',
+176 silly get     'accept-ranges': 'bytes',
+176 silly get     date: 'Sun, 18 Mar 2018 22:09:03 GMT',
+176 silly get     via: '1.1 varnish',
+176 silly get     age: '9421',
+176 silly get     connection: 'keep-alive',
+176 silly get     'x-served-by': 'cache-dca17744-DCA',
+176 silly get     'x-cache': 'HIT',
+176 silly get     'x-cache-hits': '3',
+176 silly get     'x-timer': 'S1521410943.445944,VS0,VE0',
+176 silly get     vary: 'Accept-Encoding, Accept' } ]
+177 verbose get saving font-awesome to /Users/chiragagarwal/.npm/registry.npmjs.org/font-awesome/.cache.json
+178 http 200 https://registry.npmjs.org/gulp-header
+179 silly get cb [ 200,
+179 silly get   { 'content-type': 'application/json; charset=UTF-8',
+179 silly get     server: 'UploadServer',
+179 silly get     'cache-control': 'max-age=300',
+179 silly get     'last-modified': 'Thu, 8 Mar 2018 22:01:55 GMT',
+179 silly get     etag: '"5aa1b2d3-dd18"',
+179 silly get     'x-npm-region': 'US-East',
+179 silly get     'content-encoding': 'gzip',
+179 silly get     'content-length': '6558',
+179 silly get     'accept-ranges': 'bytes',
+179 silly get     date: 'Sun, 18 Mar 2018 22:09:03 GMT',
+179 silly get     via: '1.1 varnish',
+179 silly get     age: '11661',
+179 silly get     connection: 'keep-alive',
+179 silly get     'x-served-by': 'cache-dca17750-DCA',
+179 silly get     'x-cache': 'HIT',
+179 silly get     'x-cache-hits': '56',
+179 silly get     'x-timer': 'S1521410943.444861,VS0,VE0',
+179 silly get     vary: 'Accept-Encoding, Accept' } ]
+180 verbose get saving gulp-header to /Users/chiragagarwal/.npm/registry.npmjs.org/gulp-header/.cache.json
+181 http 200 https://registry.npmjs.org/gulp-uglify
+182 silly get cb [ 200,
+182 silly get   { 'content-type': 'application/json; charset=UTF-8',
+182 silly get     server: 'UploadServer',
+182 silly get     'cache-control': 'max-age=300',
+182 silly get     'last-modified': 'Thu, 15 Mar 2018 4:50:57 GMT',
+182 silly get     etag: '"5aa9fbb1-e4db"',
+182 silly get     'x-npm-region': 'US-East',
+182 silly get     'content-encoding': 'gzip',
+182 silly get     'content-length': '10310',
+182 silly get     'accept-ranges': 'bytes',
+182 silly get     date: 'Sun, 18 Mar 2018 22:09:03 GMT',
+182 silly get     via: '1.1 varnish',
+182 silly get     age: '1051',
+182 silly get     connection: 'keep-alive',
+182 silly get     'x-served-by': 'cache-dca17731-DCA',
+182 silly get     'x-cache': 'HIT',
+182 silly get     'x-cache-hits': '2',
+182 silly get     'x-timer': 'S1521410943.447452,VS0,VE0',
+182 silly get     vary: 'Accept-Encoding, Accept' } ]
+183 verbose get saving gulp-uglify to /Users/chiragagarwal/.npm/registry.npmjs.org/gulp-uglify/.cache.json
+184 http 200 https://registry.npmjs.org/gulp-sass
+185 silly get cb [ 200,
+185 silly get   { 'content-type': 'application/json; charset=UTF-8',
+185 silly get     server: 'UploadServer',
+185 silly get     'cache-control': 'max-age=300',
+185 silly get     'last-modified': 'Thu, 15 Mar 2018 4:51:51 GMT',
+185 silly get     etag: '"5aa9fbe7-f281"',
+185 silly get     'x-npm-region': 'US-East',
+185 silly get     'content-encoding': 'gzip',
+185 silly get     'content-length': '10456',
+185 silly get     'accept-ranges': 'bytes',
+185 silly get     date: 'Sun, 18 Mar 2018 22:09:03 GMT',
+185 silly get     via: '1.1 varnish',
+185 silly get     age: '3460',
+185 silly get     connection: 'keep-alive',
+185 silly get     'x-served-by': 'cache-dca17731-DCA',
+185 silly get     'x-cache': 'HIT',
+185 silly get     'x-cache-hits': '1',
+185 silly get     'x-timer': 'S1521410943.457039,VS0,VE1',
+185 silly get     vary: 'Accept-Encoding, Accept' } ]
+186 verbose get saving gulp-sass to /Users/chiragagarwal/.npm/registry.npmjs.org/gulp-sass/.cache.json
+187 http 200 https://registry.npmjs.org/gulp-clean-css
+188 silly get cb [ 200,
+188 silly get   { 'content-type': 'application/json; charset=UTF-8',
+188 silly get     server: 'UploadServer',
+188 silly get     'cache-control': 'max-age=300',
+188 silly get     'last-modified': 'Fri, 9 Mar 2018 0:03:02 GMT',
+188 silly get     etag: '"5aa1cf36-15a08"',
+188 silly get     'x-npm-region': 'US-East',
+188 silly get     'content-encoding': 'gzip',
+188 silly get     'content-length': '10534',
+188 silly get     'accept-ranges': 'bytes',
+188 silly get     date: 'Sun, 18 Mar 2018 22:09:03 GMT',
+188 silly get     via: '1.1 varnish',
+188 silly get     age: '13860',
+188 silly get     connection: 'keep-alive',
+188 silly get     'x-served-by': 'cache-dca17744-DCA',
+188 silly get     'x-cache': 'HIT',
+188 silly get     'x-cache-hits': '1',
+188 silly get     'x-timer': 'S1521410943.447305,VS0,VE1',
+188 silly get     vary: 'Accept-Encoding, Accept' } ]
+189 verbose get saving gulp-clean-css to /Users/chiragagarwal/.npm/registry.npmjs.org/gulp-clean-css/.cache.json
+190 http 200 https://registry.npmjs.org/bootstrap
+191 silly get cb [ 200,
+191 silly get   { 'content-type': 'application/json; charset=UTF-8',
+191 silly get     server: 'UploadServer',
+191 silly get     'cache-control': 'max-age=300',
+191 silly get     'last-modified': 'Tue, 13 Mar 2018 15:03:23 GMT',
+191 silly get     etag: '"5aa7e83b-151f0"',
+191 silly get     'x-npm-region': 'US-East',
+191 silly get     'content-encoding': 'gzip',
+191 silly get     'content-length': '14691',
+191 silly get     'accept-ranges': 'bytes',
+191 silly get     date: 'Sun, 18 Mar 2018 22:09:03 GMT',
+191 silly get     via: '1.1 varnish',
+191 silly get     age: '10047',
+191 silly get     connection: 'keep-alive',
+191 silly get     'x-served-by': 'cache-dca17747-DCA',
+191 silly get     'x-cache': 'HIT',
+191 silly get     'x-cache-hits': '79',
+191 silly get     'x-timer': 'S1521410943.455640,VS0,VE0',
+191 silly get     vary: 'Accept-Encoding, Accept' } ]
+192 verbose get saving bootstrap to /Users/chiragagarwal/.npm/registry.npmjs.org/bootstrap/.cache.json
+193 http 200 https://registry.npmjs.org/gulp
+194 silly get cb [ 200,
+194 silly get   { 'content-type': 'application/json; charset=UTF-8',
+194 silly get     server: 'UploadServer',
+194 silly get     'cache-control': 'max-age=300',
+194 silly get     'last-modified': 'Fri, 16 Mar 2018 15:17:38 GMT',
+194 silly get     etag: '"5aabe012-1e270"',
+194 silly get     'x-npm-region': 'US-East',
+194 silly get     'content-encoding': 'gzip',
+194 silly get     'content-length': '18914',
+194 silly get     'accept-ranges': 'bytes',
+194 silly get     date: 'Sun, 18 Mar 2018 22:09:03 GMT',
+194 silly get     via: '1.1 varnish',
+194 silly get     age: '9832',
+194 silly get     connection: 'keep-alive',
+194 silly get     'x-served-by': 'cache-dca17733-DCA',
+194 silly get     'x-cache': 'HIT',
+194 silly get     'x-cache-hits': '76',
+194 silly get     'x-timer': 'S1521410943.454465,VS0,VE0',
+194 silly get     vary: 'Accept-Encoding, Accept' } ]
+195 verbose get saving gulp to /Users/chiragagarwal/.npm/registry.npmjs.org/gulp/.cache.json
+196 http 200 https://registry.npmjs.org/jquery
+197 silly get cb [ 200,
+197 silly get   { 'content-type': 'application/json; charset=UTF-8',
+197 silly get     server: 'UploadServer',
+197 silly get     'cache-control': 'max-age=300',
+197 silly get     'last-modified': 'Sat, 17 Mar 2018 4:05:56 GMT',
+197 silly get     etag: '"5aac9424-17db2"',
+197 silly get     'x-npm-region': 'US-East',
+197 silly get     'content-encoding': 'gzip',
+197 silly get     'content-length': '12029',
+197 silly get     'accept-ranges': 'bytes',
+197 silly get     date: 'Sun, 18 Mar 2018 22:09:03 GMT',
+197 silly get     via: '1.1 varnish',
+197 silly get     age: '7139',
+197 silly get     connection: 'keep-alive',
+197 silly get     'x-served-by': 'cache-dca17720-DCA',
+197 silly get     'x-cache': 'HIT',
+197 silly get     'x-cache-hits': '12',
+197 silly get     'x-timer': 'S1521410943.493779,VS0,VE0',
+197 silly get     vary: 'Accept-Encoding, Accept' } ]
+198 verbose get saving jquery to /Users/chiragagarwal/.npm/registry.npmjs.org/jquery/.cache.json
+199 silly addNameRange number 2 { name: 'gulp-rename', range: '>=1.2.2 <2.0.0', hasData: true }
+200 silly addNameRange versions [ 'gulp-rename',
+200 silly addNameRange   [ '0.1.0', '0.2.1', '0.2.2', '1.0.0', '1.1.0', '1.2.0', '1.2.2' ] ]
+201 silly addNamed gulp-rename@1.2.2
+202 verbose addNamed "1.2.2" is a plain semver version for gulp-rename
+203 silly mapToRegistry name font-awesome
+204 silly mapToRegistry using default registry
+205 silly mapToRegistry registry https://registry.npmjs.org/
+206 silly mapToRegistry uri https://registry.npmjs.org/font-awesome
+207 verbose addRemoteTarball https://registry.npmjs.org/font-awesome/-/font-awesome-4.7.0.tgz not in flight; adding
+208 verbose addRemoteTarball [ 'https://registry.npmjs.org/font-awesome/-/font-awesome-4.7.0.tgz',
+208 verbose addRemoteTarball   '8fa8cf0411a1a31afd07b06d2902bb9fc815a133' ]
+209 silly addNameRange number 2 { name: 'jquery.easing', range: '>=1.4.1 <2.0.0', hasData: true }
+210 silly addNameRange versions [ 'jquery.easing',
+210 silly addNameRange   [ '1.3.0', '1.3.1', '1.3.2', '1.4.0', '1.4.1' ] ]
+211 silly addNamed jquery.easing@1.4.1
+212 verbose addNamed "1.4.1" is a plain semver version for jquery.easing
+213 silly mapToRegistry name gulp-rename
+214 silly mapToRegistry using default registry
+215 silly mapToRegistry registry https://registry.npmjs.org/
+216 silly mapToRegistry uri https://registry.npmjs.org/gulp-rename
+217 verbose addRemoteTarball https://registry.npmjs.org/gulp-rename/-/gulp-rename-1.2.2.tgz not in flight; adding
+218 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-rename/-/gulp-rename-1.2.2.tgz',
+218 verbose addRemoteTarball   '3ad4428763f05e2764dec1c67d868db275687817' ]
+219 silly mapToRegistry name jquery.easing
+220 silly mapToRegistry using default registry
+221 silly mapToRegistry registry https://registry.npmjs.org/
+222 silly mapToRegistry uri https://registry.npmjs.org/jquery.easing
+223 verbose addRemoteTarball https://registry.npmjs.org/jquery.easing/-/jquery.easing-1.4.1.tgz not in flight; adding
+224 verbose addRemoteTarball [ 'https://registry.npmjs.org/jquery.easing/-/jquery.easing-1.4.1.tgz',
+224 verbose addRemoteTarball   '47982c5836bd758fd48494923c4a101ef6e93e3b' ]
+225 silly mapToRegistry name gulp-header
+226 silly mapToRegistry using default registry
+227 silly mapToRegistry registry https://registry.npmjs.org/
+228 silly mapToRegistry uri https://registry.npmjs.org/gulp-header
+229 verbose addRemoteTarball https://registry.npmjs.org/gulp-header/-/gulp-header-2.0.1.tgz not in flight; adding
+230 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-header/-/gulp-header-2.0.1.tgz',
+230 verbose addRemoteTarball   '7bd8abef277ac783e13864b795917836e7fc3838' ]
+231 silly mapToRegistry name gulp-uglify
+232 silly mapToRegistry using default registry
+233 silly mapToRegistry registry https://registry.npmjs.org/
+234 silly mapToRegistry uri https://registry.npmjs.org/gulp-uglify
+235 verbose addRemoteTarball https://registry.npmjs.org/gulp-uglify/-/gulp-uglify-3.0.0.tgz not in flight; adding
+236 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-uglify/-/gulp-uglify-3.0.0.tgz',
+236 verbose addRemoteTarball   '0df0331d72a0d302e3e37e109485dddf33c6d1ca' ]
+237 silly addNameRange number 2 { name: 'gulp-sass', range: '>=3.1.0 <4.0.0', hasData: true }
+238 silly addNameRange versions [ 'gulp-sass',
+238 silly addNameRange   [ '0.1.0',
+238 silly addNameRange     '0.2.1',
+238 silly addNameRange     '0.2.2',
+238 silly addNameRange     '0.2.3',
+238 silly addNameRange     '0.3.0',
+238 silly addNameRange     '0.4.0',
+238 silly addNameRange     '0.4.1',
+238 silly addNameRange     '0.5.0',
+238 silly addNameRange     '0.5.1',
+238 silly addNameRange     '0.5.2',
+238 silly addNameRange     '0.6.0',
+238 silly addNameRange     '0.7.0',
+238 silly addNameRange     '0.7.1',
+238 silly addNameRange     '0.7.2',
+238 silly addNameRange     '0.7.3',
+238 silly addNameRange     '1.0.0',
+238 silly addNameRange     '1.1.0',
+238 silly addNameRange     '1.2.0',
+238 silly addNameRange     '1.2.1',
+238 silly addNameRange     '1.2.2',
+238 silly addNameRange     '1.2.3',
+238 silly addNameRange     '1.2.4',
+238 silly addNameRange     '1.3.0',
+238 silly addNameRange     '1.3.1',
+238 silly addNameRange     '1.3.2',
+238 silly addNameRange     '1.3.3',
+238 silly addNameRange     '2.0.0-alpha.1',
+238 silly addNameRange     '2.0.0',
+238 silly addNameRange     '2.0.2',
+238 silly addNameRange     '2.0.3',
+238 silly addNameRange     '2.0.4',
+238 silly addNameRange     '2.1.0-beta',
+238 silly addNameRange     '2.1.0',
+238 silly addNameRange     '2.1.1',
+238 silly addNameRange     '2.2.0',
+238 silly addNameRange     '2.3.0-beta.1',
+238 silly addNameRange     '2.3.0',
+238 silly addNameRange     '2.3.1',
+238 silly addNameRange     '2.3.2',
+238 silly addNameRange     '3.0.0',
+238 silly addNameRange     '3.1.0',
+238 silly addNameRange     '3.2.0' ] ]
+239 silly addNamed gulp-sass@3.1.0
+240 verbose addNamed "3.1.0" is a plain semver version for gulp-sass
+241 silly mapToRegistry name gulp-clean-css
+242 silly mapToRegistry using default registry
+243 silly mapToRegistry registry https://registry.npmjs.org/
+244 silly mapToRegistry uri https://registry.npmjs.org/gulp-clean-css
+245 verbose addRemoteTarball https://registry.npmjs.org/gulp-clean-css/-/gulp-clean-css-3.9.2.tgz not in flight; adding
+246 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-clean-css/-/gulp-clean-css-3.9.2.tgz',
+246 verbose addRemoteTarball   'b280e6f56bf8bee39e697e77aaa72d3e7e7d3bd5' ]
+247 silly mapToRegistry name bootstrap
+248 silly mapToRegistry using default registry
+249 silly mapToRegistry registry https://registry.npmjs.org/
+250 silly mapToRegistry uri https://registry.npmjs.org/bootstrap
+251 verbose addRemoteTarball https://registry.npmjs.org/bootstrap/-/bootstrap-4.0.0.tgz not in flight; adding
+252 verbose addRemoteTarball [ 'https://registry.npmjs.org/bootstrap/-/bootstrap-4.0.0.tgz',
+252 verbose addRemoteTarball   'ceb03842c145fcc1b9b4e15da2a05656ba68469a' ]
+253 silly mapToRegistry name gulp-sass
+254 silly mapToRegistry using default registry
+255 silly mapToRegistry registry https://registry.npmjs.org/
+256 silly mapToRegistry uri https://registry.npmjs.org/gulp-sass
+257 verbose addRemoteTarball https://registry.npmjs.org/gulp-sass/-/gulp-sass-3.1.0.tgz not in flight; adding
+258 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-sass/-/gulp-sass-3.1.0.tgz',
+258 verbose addRemoteTarball   '53dc4b68a1f5ddfe4424ab4c247655269a8b74b7' ]
+259 info retry fetch attempt 1 at 6:09:03 PM
+260 info attempt registry request try #1 at 6:09:03 PM
+261 http fetch GET https://registry.npmjs.org/jquery.easing/-/jquery.easing-1.4.1.tgz
+262 silly addNameRange number 2 { name: 'gulp', range: '>=3.9.1 <4.0.0', hasData: true }
+263 silly addNameRange versions [ 'gulp',
+263 silly addNameRange   [ '0.0.1',
+263 silly addNameRange     '0.0.2',
+263 silly addNameRange     '0.0.3',
+263 silly addNameRange     '0.0.4',
+263 silly addNameRange     '0.0.5',
+263 silly addNameRange     '0.0.7',
+263 silly addNameRange     '0.0.8',
+263 silly addNameRange     '0.0.9',
+263 silly addNameRange     '0.1.0',
+263 silly addNameRange     '0.2.0',
+263 silly addNameRange     '1.0.0',
+263 silly addNameRange     '1.1.0',
+263 silly addNameRange     '1.2.0',
+263 silly addNameRange     '1.2.1',
+263 silly addNameRange     '2.0.0',
+263 silly addNameRange     '2.0.1',
+263 silly addNameRange     '2.1.0',
+263 silly addNameRange     '2.2.0',
+263 silly addNameRange     '2.3.0',
+263 silly addNameRange     '2.4.0',
+263 silly addNameRange     '2.4.1',
+263 silly addNameRange     '2.6.0',
+263 silly addNameRange     '2.6.1',
+263 silly addNameRange     '2.7.0',
+263 silly addNameRange     '3.0.0',
+263 silly addNameRange     '3.1.1',
+263 silly addNameRange     '3.1.2',
+263 silly addNameRange     '3.1.3',
+263 silly addNameRange     '3.1.4',
+263 silly addNameRange     '3.2.0',
+263 silly addNameRange     '3.2.1',
+263 silly addNameRange     '3.2.2',
+263 silly addNameRange     '3.2.3',
+263 silly addNameRange     '3.2.4',
+263 silly addNameRange     '3.2.5',
+263 silly addNameRange     '3.3.0',
+263 silly addNameRange     '3.3.1',
+263 silly addNameRange     '3.3.2',
+263 silly addNameRange     '3.3.4',
+263 silly addNameRange     '3.4.0',
+263 silly addNameRange     '3.5.0',
+263 silly addNameRange     '3.5.1',
+263 silly addNameRange     '3.5.2',
+263 silly addNameRange     '3.5.5',
+263 silly addNameRange     '3.5.6',
+263 silly addNameRange     '3.6.0',
+263 silly addNameRange     '3.6.1',
+263 silly addNameRange     '3.6.2',
+263 silly addNameRange     '3.7.0',
+263 silly addNameRange     '3.8.0',
+263 silly addNameRange     '3.8.1',
+263 silly addNameRange     '3.8.2',
+263 silly addNameRange     '3.8.3',
+263 silly addNameRange     '3.8.4',
+263 silly addNameRange     '3.8.5',
+263 silly addNameRange     '3.8.6',
+263 silly addNameRange     '3.8.7',
+263 silly addNameRange     '3.8.8',
+263 silly addNameRange     '3.8.9',
+263 silly addNameRange     '3.8.10',
+263 silly addNameRange     '3.8.11',
+263 silly addNameRange     '3.9.0',
+263 silly addNameRange     '3.9.1',
+263 silly addNameRange     '4.0.0' ] ]
+264 silly addNamed gulp@3.9.1
+265 verbose addNamed "3.9.1" is a plain semver version for gulp
+266 info retry fetch attempt 1 at 6:09:03 PM
+267 info attempt registry request try #1 at 6:09:03 PM
+268 http fetch GET https://registry.npmjs.org/gulp-clean-css/-/gulp-clean-css-3.9.2.tgz
+269 info retry fetch attempt 1 at 6:09:03 PM
+270 info attempt registry request try #1 at 6:09:03 PM
+271 http fetch GET https://registry.npmjs.org/bootstrap/-/bootstrap-4.0.0.tgz
+272 info retry fetch attempt 1 at 6:09:03 PM
+273 info attempt registry request try #1 at 6:09:03 PM
+274 http fetch GET https://registry.npmjs.org/gulp-header/-/gulp-header-2.0.1.tgz
+275 info retry fetch attempt 1 at 6:09:03 PM
+276 info attempt registry request try #1 at 6:09:03 PM
+277 http fetch GET https://registry.npmjs.org/gulp-sass/-/gulp-sass-3.1.0.tgz
+278 silly mapToRegistry name gulp
+279 silly mapToRegistry using default registry
+280 silly mapToRegistry registry https://registry.npmjs.org/
+281 silly mapToRegistry uri https://registry.npmjs.org/gulp
+282 verbose addRemoteTarball https://registry.npmjs.org/gulp/-/gulp-3.9.1.tgz not in flight; adding
+283 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp/-/gulp-3.9.1.tgz',
+283 verbose addRemoteTarball   '571ce45928dd40af6514fc4011866016c13845b4' ]
+284 silly mapToRegistry name jquery
+285 silly mapToRegistry using default registry
+286 silly mapToRegistry registry https://registry.npmjs.org/
+287 silly mapToRegistry uri https://registry.npmjs.org/jquery
+288 verbose addRemoteTarball https://registry.npmjs.org/jquery/-/jquery-3.3.1.tgz not in flight; adding
+289 verbose addRemoteTarball [ 'https://registry.npmjs.org/jquery/-/jquery-3.3.1.tgz',
+289 verbose addRemoteTarball   '958ce29e81c9790f31be7792df5d4d95fc57fbca' ]
+290 info retry fetch attempt 1 at 6:09:03 PM
+291 info attempt registry request try #1 at 6:09:03 PM
+292 http fetch GET https://registry.npmjs.org/gulp-uglify/-/gulp-uglify-3.0.0.tgz
+293 info retry fetch attempt 1 at 6:09:03 PM
+294 info attempt registry request try #1 at 6:09:03 PM
+295 http fetch GET https://registry.npmjs.org/font-awesome/-/font-awesome-4.7.0.tgz
+296 info retry fetch attempt 1 at 6:09:03 PM
+297 info attempt registry request try #1 at 6:09:03 PM
+298 http fetch GET https://registry.npmjs.org/gulp-rename/-/gulp-rename-1.2.2.tgz
+299 info retry fetch attempt 1 at 6:09:03 PM
+300 info attempt registry request try #1 at 6:09:03 PM
+301 http fetch GET https://registry.npmjs.org/gulp/-/gulp-3.9.1.tgz
+302 info retry fetch attempt 1 at 6:09:03 PM
+303 info attempt registry request try #1 at 6:09:03 PM
+304 http fetch GET https://registry.npmjs.org/jquery/-/jquery-3.3.1.tgz
+305 http 200 https://registry.npmjs.org/browser-sync
+306 silly get cb [ 200,
+306 silly get   { 'content-type': 'application/json; charset=UTF-8',
+306 silly get     server: 'UploadServer',
+306 silly get     'cache-control': 'max-age=300',
+306 silly get     'last-modified': 'Thu, 15 Mar 2018 9:46:59 GMT',
+306 silly get     etag: '"5aaa4113-8fa22"',
+306 silly get     'x-npm-region': 'US-East',
+306 silly get     'content-encoding': 'gzip',
+306 silly get     'content-length': '33812',
+306 silly get     'accept-ranges': 'bytes',
+306 silly get     date: 'Sun, 18 Mar 2018 22:09:03 GMT',
+306 silly get     via: '1.1 varnish',
+306 silly get     age: '13625',
+306 silly get     connection: 'keep-alive',
+306 silly get     'x-served-by': 'cache-dca17723-DCA',
+306 silly get     'x-cache': 'HIT',
+306 silly get     'x-cache-hits': '2',
+306 silly get     'x-timer': 'S1521410943.447199,VS0,VE0',
+306 silly get     vary: 'Accept-Encoding, Accept' } ]
+307 verbose get saving browser-sync to /Users/chiragagarwal/.npm/registry.npmjs.org/browser-sync/.cache.json
+308 http fetch 200 https://registry.npmjs.org/jquery.easing/-/jquery.easing-1.4.1.tgz
+309 http fetch 200 https://registry.npmjs.org/gulp-clean-css/-/gulp-clean-css-3.9.2.tgz
+310 http fetch 200 https://registry.npmjs.org/gulp-header/-/gulp-header-2.0.1.tgz
+311 http fetch 200 https://registry.npmjs.org/bootstrap/-/bootstrap-4.0.0.tgz
+312 silly mapToRegistry name browser-sync
+313 silly mapToRegistry using default registry
+314 silly mapToRegistry registry https://registry.npmjs.org/
+315 silly mapToRegistry uri https://registry.npmjs.org/browser-sync
+316 verbose addRemoteTarball https://registry.npmjs.org/browser-sync/-/browser-sync-2.23.6.tgz not in flight; adding
+317 verbose addRemoteTarball [ 'https://registry.npmjs.org/browser-sync/-/browser-sync-2.23.6.tgz',
+317 verbose addRemoteTarball   'ed0721c92e5b98c71b7bf839b39092ac9f220650' ]
+318 silly fetchAndShaCheck shasum b280e6f56bf8bee39e697e77aaa72d3e7e7d3bd5
+319 silly fetchAndShaCheck shasum 7bd8abef277ac783e13864b795917836e7fc3838
+320 info retry fetch attempt 1 at 6:09:03 PM
+321 info attempt registry request try #1 at 6:09:03 PM
+322 http fetch GET https://registry.npmjs.org/browser-sync/-/browser-sync-2.23.6.tgz
+323 http fetch 200 https://registry.npmjs.org/gulp-rename/-/gulp-rename-1.2.2.tgz
+324 http fetch 200 https://registry.npmjs.org/font-awesome/-/font-awesome-4.7.0.tgz
+325 http fetch 200 https://registry.npmjs.org/gulp-uglify/-/gulp-uglify-3.0.0.tgz
+326 http fetch 200 https://registry.npmjs.org/gulp-sass/-/gulp-sass-3.1.0.tgz
+327 http fetch 200 https://registry.npmjs.org/gulp/-/gulp-3.9.1.tgz
+328 verbose addTmpTarball /var/folders/qy/nqs3k6396ds3f6282vjq0plw0000gn/T/npm-18722-98939a58/registry.npmjs.org/gulp-clean-css/-/gulp-clean-css-3.9.2.tgz not in flight; adding
+329 verbose addTmpTarball already have metadata; skipping unpack for gulp-clean-css@3.9.2
+330 http fetch 200 https://registry.npmjs.org/jquery/-/jquery-3.3.1.tgz
+331 verbose addTmpTarball /var/folders/qy/nqs3k6396ds3f6282vjq0plw0000gn/T/npm-18722-98939a58/registry.npmjs.org/gulp-header/-/gulp-header-2.0.1.tgz not in flight; adding
+332 verbose addTmpTarball already have metadata; skipping unpack for gulp-header@2.0.1
+333 silly fetchAndShaCheck shasum 3ad4428763f05e2764dec1c67d868db275687817
+334 verbose addTmpTarball /var/folders/qy/nqs3k6396ds3f6282vjq0plw0000gn/T/npm-18722-98939a58/registry.npmjs.org/gulp-rename/-/gulp-rename-1.2.2.tgz not in flight; adding
+335 verbose addTmpTarball already have metadata; skipping unpack for gulp-rename@1.2.2
+336 silly fetchAndShaCheck shasum 0df0331d72a0d302e3e37e109485dddf33c6d1ca
+337 silly fetchAndShaCheck shasum 53dc4b68a1f5ddfe4424ab4c247655269a8b74b7
+338 verbose addTmpTarball /var/folders/qy/nqs3k6396ds3f6282vjq0plw0000gn/T/npm-18722-98939a58/registry.npmjs.org/gulp-uglify/-/gulp-uglify-3.0.0.tgz not in flight; adding
+339 verbose addTmpTarball already have metadata; skipping unpack for gulp-uglify@3.0.0
+340 silly fetchAndShaCheck shasum 571ce45928dd40af6514fc4011866016c13845b4
+341 verbose addTmpTarball /var/folders/qy/nqs3k6396ds3f6282vjq0plw0000gn/T/npm-18722-98939a58/registry.npmjs.org/gulp-sass/-/gulp-sass-3.1.0.tgz not in flight; adding
+342 verbose addTmpTarball already have metadata; skipping unpack for gulp-sass@3.1.0
+343 silly cache afterAdd gulp-clean-css@3.9.2
+344 verbose afterAdd /Users/chiragagarwal/.npm/gulp-clean-css/3.9.2/package/package.json not in flight; writing
+345 silly cache afterAdd gulp-header@2.0.1
+346 verbose afterAdd /Users/chiragagarwal/.npm/gulp-header/2.0.1/package/package.json not in flight; writing
+347 verbose addTmpTarball /var/folders/qy/nqs3k6396ds3f6282vjq0plw0000gn/T/npm-18722-98939a58/registry.npmjs.org/gulp/-/gulp-3.9.1.tgz not in flight; adding
+348 verbose addTmpTarball already have metadata; skipping unpack for gulp@3.9.1
+349 verbose afterAdd /Users/chiragagarwal/.npm/gulp-clean-css/3.9.2/package/package.json written
+350 verbose afterAdd /Users/chiragagarwal/.npm/gulp-header/2.0.1/package/package.json written
+351 silly cache afterAdd gulp-rename@1.2.2
+352 verbose afterAdd /Users/chiragagarwal/.npm/gulp-rename/1.2.2/package/package.json not in flight; writing
+353 verbose afterAdd /Users/chiragagarwal/.npm/gulp-rename/1.2.2/package/package.json written
+354 silly cache afterAdd gulp-uglify@3.0.0
+355 verbose afterAdd /Users/chiragagarwal/.npm/gulp-uglify/3.0.0/package/package.json not in flight; writing
+356 silly cache afterAdd gulp-sass@3.1.0
+357 verbose afterAdd /Users/chiragagarwal/.npm/gulp-sass/3.1.0/package/package.json not in flight; writing
+358 silly cache afterAdd gulp@3.9.1
+359 verbose afterAdd /Users/chiragagarwal/.npm/gulp/3.9.1/package/package.json not in flight; writing
+360 verbose afterAdd /Users/chiragagarwal/.npm/gulp-uglify/3.0.0/package/package.json written
+361 verbose afterAdd /Users/chiragagarwal/.npm/gulp-sass/3.1.0/package/package.json written
+362 verbose afterAdd /Users/chiragagarwal/.npm/gulp/3.9.1/package/package.json written
+363 http fetch 200 https://registry.npmjs.org/browser-sync/-/browser-sync-2.23.6.tgz
+364 silly fetchAndShaCheck shasum 47982c5836bd758fd48494923c4a101ef6e93e3b
+365 verbose addTmpTarball /var/folders/qy/nqs3k6396ds3f6282vjq0plw0000gn/T/npm-18722-98939a58/registry.npmjs.org/jquery.easing/-/jquery.easing-1.4.1.tgz not in flight; adding
+366 verbose addTmpTarball already have metadata; skipping unpack for jquery.easing@1.4.1
+367 silly cache afterAdd jquery.easing@1.4.1
+368 verbose afterAdd /Users/chiragagarwal/.npm/jquery.easing/1.4.1/package/package.json not in flight; writing
+369 verbose afterAdd /Users/chiragagarwal/.npm/jquery.easing/1.4.1/package/package.json written
+370 silly fetchAndShaCheck shasum 958ce29e81c9790f31be7792df5d4d95fc57fbca
+371 verbose addTmpTarball /var/folders/qy/nqs3k6396ds3f6282vjq0plw0000gn/T/npm-18722-98939a58/registry.npmjs.org/jquery/-/jquery-3.3.1.tgz not in flight; adding
+372 verbose addTmpTarball already have metadata; skipping unpack for jquery@3.3.1
+373 silly cache afterAdd jquery@3.3.1
+374 verbose afterAdd /Users/chiragagarwal/.npm/jquery/3.3.1/package/package.json not in flight; writing
+375 verbose afterAdd /Users/chiragagarwal/.npm/jquery/3.3.1/package/package.json written
+376 silly fetchAndShaCheck shasum ed0721c92e5b98c71b7bf839b39092ac9f220650
+377 silly fetchAndShaCheck shasum 8fa8cf0411a1a31afd07b06d2902bb9fc815a133
+378 verbose addTmpTarball /var/folders/qy/nqs3k6396ds3f6282vjq0plw0000gn/T/npm-18722-98939a58/registry.npmjs.org/browser-sync/-/browser-sync-2.23.6.tgz not in flight; adding
+379 verbose addTmpTarball already have metadata; skipping unpack for browser-sync@2.23.6
+380 verbose addTmpTarball /var/folders/qy/nqs3k6396ds3f6282vjq0plw0000gn/T/npm-18722-98939a58/registry.npmjs.org/font-awesome/-/font-awesome-4.7.0.tgz not in flight; adding
+381 verbose addTmpTarball already have metadata; skipping unpack for font-awesome@4.7.0
+382 silly cache afterAdd browser-sync@2.23.6
+383 verbose afterAdd /Users/chiragagarwal/.npm/browser-sync/2.23.6/package/package.json not in flight; writing
+384 verbose afterAdd /Users/chiragagarwal/.npm/browser-sync/2.23.6/package/package.json written
+385 silly cache afterAdd font-awesome@4.7.0
+386 verbose afterAdd /Users/chiragagarwal/.npm/font-awesome/4.7.0/package/package.json not in flight; writing
+387 verbose afterAdd /Users/chiragagarwal/.npm/font-awesome/4.7.0/package/package.json written
+388 silly fetchAndShaCheck shasum ceb03842c145fcc1b9b4e15da2a05656ba68469a
+389 verbose addTmpTarball /var/folders/qy/nqs3k6396ds3f6282vjq0plw0000gn/T/npm-18722-98939a58/registry.npmjs.org/bootstrap/-/bootstrap-4.0.0.tgz not in flight; adding
+390 verbose addTmpTarball already have metadata; skipping unpack for bootstrap@4.0.0
+391 silly cache afterAdd bootstrap@4.0.0
+392 verbose afterAdd /Users/chiragagarwal/.npm/bootstrap/4.0.0/package/package.json not in flight; writing
+393 verbose afterAdd /Users/chiragagarwal/.npm/bootstrap/4.0.0/package/package.json written
+394 silly install resolved [ { name: 'gulp-clean-css',
+394 silly install resolved     description: 'Minify css with clean-css.',
+394 silly install resolved     homepage: 'https://github.com/scniro/gulp-clean-css#readme',
+394 silly install resolved     version: '3.9.2',
+394 silly install resolved     author: { name: 'scniro' },
+394 silly install resolved     license: 'MIT',
+394 silly install resolved     bugs:
+394 silly install resolved      { url: 'https://github.com/scniro/gulp-clean-css/issues',
+394 silly install resolved        email: 'scniro@outlook.com' },
+394 silly install resolved     repository:
+394 silly install resolved      { type: 'git',
+394 silly install resolved        url: 'git+https://github.com/scniro/gulp-clean-css.git' },
+394 silly install resolved     files: [ 'index.js' ],
+394 silly install resolved     keywords:
+394 silly install resolved      [ 'css',
+394 silly install resolved        'clean',
+394 silly install resolved        'minify',
+394 silly install resolved        'uglify',
+394 silly install resolved        'clean-css',
+394 silly install resolved        'minify-css',
+394 silly install resolved        'gulp-minify-css',
+394 silly install resolved        'gulp-clean-css',
+394 silly install resolved        'gulpplugin',
+394 silly install resolved        'gulpfriendly' ],
+394 silly install resolved     dependencies:
+394 silly install resolved      { 'clean-css': '4.1.9',
+394 silly install resolved        'plugin-error': '0.1.2',
+394 silly install resolved        through2: '2.0.3',
+394 silly install resolved        'vinyl-sourcemaps-apply': '0.2.1' },
+394 silly install resolved     devDependencies:
+394 silly install resolved      { chai: '4.1.2',
+394 silly install resolved        'chai-string': '1.4.0',
+394 silly install resolved        coveralls: '3.0.0',
+394 silly install resolved        express: '4.16.2',
+394 silly install resolved        'fancy-log': '1.3.2',
+394 silly install resolved        gulp: '3.9.1',
+394 silly install resolved        'gulp-concat': '2.6.1',
+394 silly install resolved        'gulp-istanbul': '1.1.2',
+394 silly install resolved        'gulp-mocha': '4.3.1',
+394 silly install resolved        'gulp-rename': '1.2.2',
+394 silly install resolved        'gulp-sass': '3.1.0',
+394 silly install resolved        'gulp-sourcemaps': '2.6.2',
+394 silly install resolved        mocha: '4.1.0',
+394 silly install resolved        vinyl: '2.1.0',
+394 silly install resolved        'vinyl-buffer': '1.0.1',
+394 silly install resolved        'vinyl-fs-fake': '1.1.0' },
+394 silly install resolved     scripts: { test: 'gulp test' },
+394 silly install resolved     gitHead: 'c49dbc7a11e31648660eb953db4dd6f470b002ad',
+394 silly install resolved     _id: 'gulp-clean-css@3.9.2',
+394 silly install resolved     _npmVersion: '5.5.1',
+394 silly install resolved     _nodeVersion: '9.3.0',
+394 silly install resolved     _npmUser: { name: 'scniro', email: 'salvatore.niro@outlook.com' },
+394 silly install resolved     dist:
+394 silly install resolved      { integrity: 'sha512-NaBtCOmhk2FP1D1pgv5jEvZaKr+6FZHvEgsl1iPGmTpyUOWpECR3Mzdciwo+hEWwtlnkZSueoAf74YCMtar48A==',
+394 silly install resolved        shasum: 'b280e6f56bf8bee39e697e77aaa72d3e7e7d3bd5',
+394 silly install resolved        tarball: 'https://registry.npmjs.org/gulp-clean-css/-/gulp-clean-css-3.9.2.tgz' },
+394 silly install resolved     maintainers: [ [Object] ],
+394 silly install resolved     _npmOperationalInternal:
+394 silly install resolved      { host: 's3://npm-registry-packages',
+394 silly install resolved        tmp: 'tmp/gulp-clean-css-3.9.2.tgz_1514569823518_0.28921166248619556' },
+394 silly install resolved     directories: {},
+394 silly install resolved     _shasum: 'b280e6f56bf8bee39e697e77aaa72d3e7e7d3bd5',
+394 silly install resolved     _resolved: 'https://registry.npmjs.org/gulp-clean-css/-/gulp-clean-css-3.9.2.tgz',
+394 silly install resolved     _from: 'gulp-clean-css@3.9.2' },
+394 silly install resolved   { name: 'gulp-header',
+394 silly install resolved     version: '2.0.1',
+394 silly install resolved     description: 'Gulp extension to add header to file(s) in the pipeline.',
+394 silly install resolved     main: './index.js',
+394 silly install resolved     proxy: null,
+394 silly install resolved     'https-proxy': null,
+394 silly install resolved     directories: { test: 'test' },
+394 silly install resolved     scripts:
+394 silly install resolved      { test: 'mocha --reporter spec',
+394 silly install resolved        'publish-major': 'npm version major && git push origin master && git push --tags',
+394 silly install resolved        'publish-minor': 'npm version minor && git push origin master && git push --tags',
+394 silly install resolved        'publish-patch': 'npm version patch && git push origin master && git push --tags' },
+394 silly install resolved     repository:
+394 silly install resolved      { type: 'git',
+394 silly install resolved        url: 'git://github.com/tracker1/gulp-header.git' },
+394 silly install resolved     keywords: [ 'header', 'gulpplugin', 'eventstream' ],
+394 silly install resolved     author:
+394 silly install resolved      { name: 'Michael J. Ryan',
+394 silly install resolved        email: 'tracker1@gmail.com',
+394 silly install resolved        url: 'http://github.com/tracker1' },
+394 silly install resolved     contributors: [ [Object], [Object] ],
+394 silly install resolved     license: 'MIT',
+394 silly install resolved     bugs: { url: 'https://github.com/tracker1/gulp-header/issues' },
+394 silly install resolved     dependencies:
+394 silly install resolved      { 'concat-with-sourcemaps': '*',
+394 silly install resolved        'lodash.template': '^4.4.0',
+394 silly install resolved        through2: '^2.0.0' },
+394 silly install resolved     devDependencies:
+394 silly install resolved      { 'event-stream': '^3.1.7',
+394 silly install resolved        gulp: '^3.9.0',
+394 silly install resolved        mocha: '*',
+394 silly install resolved        should: '*',
+394 silly install resolved        vinyl: '*' },
+394 silly install resolved     gitHead: '3f76e6ba09ba14c657b99ec87bbdad7baa7eeadb',
+394 silly install resolved     homepage: 'https://github.com/tracker1/gulp-header#readme',
+394 silly install resolved     _id: 'gulp-header@2.0.1',
+394 silly install resolved     _npmVersion: '5.6.0',
+394 silly install resolved     _nodeVersion: '8.9.4',
+394 silly install resolved     _npmUser: { name: 'tracker1', email: 'tracker1@gmail.com' },
+394 silly install resolved     dist:
+394 silly install resolved      { integrity: 'sha512-aL3fpWqwMtUbOqEsqN9/sDyyJXLRIsMLNQujTfzAGuo1bphBGRPeyVzwIzIP7iVcgnJs3rRUCgWo68XQ+GLwtA==',
+394 silly install resolved        shasum: '7bd8abef277ac783e13864b795917836e7fc3838',
+394 silly install resolved        tarball: 'https://registry.npmjs.org/gulp-header/-/gulp-header-2.0.1.tgz' },
+394 silly install resolved     maintainers: [ [Object] ],
+394 silly install resolved     _npmOperationalInternal:
+394 silly install resolved      { host: 's3://npm-registry-packages',
+394 silly install resolved        tmp: 'tmp/gulp-header-2.0.1.tgz_1516149300509_0.2990697652567178' },
+394 silly install resolved     _shasum: '7bd8abef277ac783e13864b795917836e7fc3838',
+394 silly install resolved     _resolved: 'https://registry.npmjs.org/gulp-header/-/gulp-header-2.0.1.tgz',
+394 silly install resolved     _from: 'gulp-header@2.0.1' },
+394 silly install resolved   { name: 'gulp-rename',
+394 silly install resolved     version: '1.2.2',
+394 silly install resolved     description: 'Rename files',
+394 silly install resolved     keywords: [ 'gulpplugin' ],
+394 silly install resolved     homepage: 'https://github.com/hparra/gulp-rename',
+394 silly install resolved     bugs: { url: 'https://github.com/hparra/gulp-rename/issues' },
+394 silly install resolved     author:
+394 silly install resolved      { name: 'Hector Guillermo Parra Alvarez',
+394 silly install resolved        email: 'hector@hectorparra.com',
+394 silly install resolved        url: 'https://github.com/hparra' },
+394 silly install resolved     main: './index.js',
+394 silly install resolved     files: [ 'index.js' ],
+394 silly install resolved     repository: { type: 'git', url: 'git://github.com/hparra/gulp-rename.git' },
+394 silly install resolved     scripts: { pretest: 'jshint index.js test/', test: 'mocha' },
+394 silly install resolved     devDependencies:
+394 silly install resolved      { gulp: '>=3.0.0',
+394 silly install resolved        'gulp-sourcemaps': '^1.5.0',
+394 silly install resolved        'gulp-util': '^3.0.4',
+394 silly install resolved        jshint: '^2.6.3',
+394 silly install resolved        'map-stream': '>=0.0.4',
+394 silly install resolved        mocha: '>=1.15.0',
+394 silly install resolved        should: '>=2.1.0' },
+394 silly install resolved     engines: { node: '>=0.10.0', npm: '>=1.2.10' },
+394 silly install resolved     licenses: [ [Object] ],
+394 silly install resolved     gitHead: 'e1fb4e41dd107b38e96f1156fcbee70ebcf16fb6',
+394 silly install resolved     _id: 'gulp-rename@1.2.2',
+394 silly install resolved     _shasum: '3ad4428763f05e2764dec1c67d868db275687817',
+394 silly install resolved     _from: 'gulp-rename@>=1.2.2 <2.0.0',
+394 silly install resolved     _npmVersion: '1.4.28',
+394 silly install resolved     _npmUser: { name: 'fractal', email: 'contact@wearefractal.com' },
+394 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+394 silly install resolved     dist:
+394 silly install resolved      { shasum: '3ad4428763f05e2764dec1c67d868db275687817',
+394 silly install resolved        tarball: 'https://registry.npmjs.org/gulp-rename/-/gulp-rename-1.2.2.tgz' },
+394 silly install resolved     directories: {},
+394 silly install resolved     _resolved: 'https://registry.npmjs.org/gulp-rename/-/gulp-rename-1.2.2.tgz' },
+394 silly install resolved   { name: 'gulp-uglify',
+394 silly install resolved     description: 'Minify files with UglifyJS.',
+394 silly install resolved     version: '3.0.0',
+394 silly install resolved     author: { name: 'Terin Stock', email: 'terinjokes@gmail.com' },
+394 silly install resolved     bugs: { url: 'https://github.com/terinjokes/gulp-uglify/issues' },
+394 silly install resolved     dependencies:
+394 silly install resolved      { gulplog: '^1.0.0',
+394 silly install resolved        'has-gulplog': '^0.1.0',
+394 silly install resolved        lodash: '^4.13.1',
+394 silly install resolved        'make-error-cause': '^1.1.1',
+394 silly install resolved        through2: '^2.0.0',
+394 silly install resolved        'uglify-js': '^3.0.5',
+394 silly install resolved        'vinyl-sourcemaps-apply': '^0.2.0' },
+394 silly install resolved     devDependencies:
+394 silly install resolved      { coveralls: '^2.11.4',
+394 silly install resolved        eslint: '^3.18.0',
+394 silly install resolved        'eslint-config-prettier': '^2.1.0',
+394 silly install resolved        'eslint-config-xo': '^0.18.1',
+394 silly install resolved        'eslint-plugin-no-use-extend-native': '^0.3.12',
+394 silly install resolved        'eslint-plugin-prettier': '^2.0.1',
+394 silly install resolved        'eslint-plugin-unicorn': '^2.1.0',
+394 silly install resolved        'intelli-espower-loader': '^1.0.1',
+394 silly install resolved        mocha: '^3.0.1',
+394 silly install resolved        nyc: '^10.3.2',
+394 silly install resolved        'power-assert': '^1.4.1',
+394 silly install resolved        prettier: '^1.1.0',
+394 silly install resolved        'source-list-map': '^1.1.2',
+394 silly install resolved        tape: '^4.0.0',
+394 silly install resolved        testdouble: '^2.1.2',
+394 silly install resolved        vinyl: '^2.0.0' },
+394 silly install resolved     homepage: 'https://github.com/terinjokes/gulp-uglify/',
+394 silly install resolved     keywords: [ 'gulpplugin' ],
+394 silly install resolved     license: 'MIT',
+394 silly install resolved     main: 'index.js',
+394 silly install resolved     repository:
+394 silly install resolved      { type: 'git',
+394 silly install resolved        url: 'git+https://github.com/terinjokes/gulp-uglify.git' },
+394 silly install resolved     eslintConfig:
+394 silly install resolved      { env: [Object],
+394 silly install resolved        extends: [Object],
+394 silly install resolved        plugins: [Object],
+394 silly install resolved        rules: [Object] },
+394 silly install resolved     files: [ 'index.js', 'composer.js', 'lib/' ],
+394 silly install resolved     scripts:
+394 silly install resolved      { lint: 'eslint *.js lib test',
+394 silly install resolved        test: 'nyc --reporter=lcov --reporter=text mocha --require intelli-espower-loader',
+394 silly install resolved        coverage: 'cat ./coverage/lcov.info | coveralls' },
+394 silly install resolved     greenkeeper: { ignore: [Object] },
+394 silly install resolved     gitHead: '76b5b3a9e06db35e79450f070f97d73471426d52',
+394 silly install resolved     _id: 'gulp-uglify@3.0.0',
+394 silly install resolved     _shasum: '0df0331d72a0d302e3e37e109485dddf33c6d1ca',
+394 silly install resolved     _from: 'gulp-uglify@3.0.0',
+394 silly install resolved     _npmVersion: '4.6.1',
+394 silly install resolved     _nodeVersion: '6.10.2',
+394 silly install resolved     _npmUser: { name: 'terinjokes', email: 'terinjokes@gmail.com' },
+394 silly install resolved     dist:
+394 silly install resolved      { shasum: '0df0331d72a0d302e3e37e109485dddf33c6d1ca',
+394 silly install resolved        tarball: 'https://registry.npmjs.org/gulp-uglify/-/gulp-uglify-3.0.0.tgz' },
+394 silly install resolved     maintainers: [ [Object] ],
+394 silly install resolved     _npmOperationalInternal:
+394 silly install resolved      { host: 's3://npm-registry-packages',
+394 silly install resolved        tmp: 'tmp/gulp-uglify-3.0.0.tgz_1495317486094_0.8444346068426967' },
+394 silly install resolved     directories: {},
+394 silly install resolved     _resolved: 'https://registry.npmjs.org/gulp-uglify/-/gulp-uglify-3.0.0.tgz' },
+394 silly install resolved   { name: 'gulp-sass',
+394 silly install resolved     version: '3.1.0',
+394 silly install resolved     description: 'Gulp plugin for sass',
+394 silly install resolved     main: 'index.js',
+394 silly install resolved     scripts: { test: 'mocha test' },
+394 silly install resolved     repository: { type: 'git', url: 'git://github.com/dlmanning/gulp-sass.git' },
+394 silly install resolved     keywords: [ 'gulpplugin', 'sass', 'gulp' ],
+394 silly install resolved     author: { name: 'David Manning' },
+394 silly install resolved     license: 'MIT',
+394 silly install resolved     bugs: { url: 'https://github.com/dlmanning/gulp-sass/issues' },
+394 silly install resolved     dependencies:
+394 silly install resolved      { 'gulp-util': '^3.0',
+394 silly install resolved        'lodash.clonedeep': '^4.3.2',
+394 silly install resolved        'node-sass': '^4.2.0',
+394 silly install resolved        through2: '^2.0.0',
+394 silly install resolved        'vinyl-sourcemaps-apply': '^0.2.0' },
+394 silly install resolved     devDependencies:
+394 silly install resolved      { 'autoprefixer-core': '^5.2.1',
+394 silly install resolved        eslint: '^2.9.0',
+394 silly install resolved        globule: '^1.0.0',
+394 silly install resolved        gulp: '^3.8.11',
+394 silly install resolved        'gulp-postcss': '^5.1.10',
+394 silly install resolved        'gulp-sourcemaps': '^1.5.2',
+394 silly install resolved        'gulp-tap': '^0.1.3',
+394 silly install resolved        mocha: '^2.2.1',
+394 silly install resolved        rimraf: '^2.4.3',
+394 silly install resolved        should: '^8.3.1' },
+394 silly install resolved     gitHead: '25d37e799a358ab11c176860fad1b6327be40329',
+394 silly install resolved     homepage: 'https://github.com/dlmanning/gulp-sass#readme',
+394 silly install resolved     _id: 'gulp-sass@3.1.0',
+394 silly install resolved     _shasum: '53dc4b68a1f5ddfe4424ab4c247655269a8b74b7',
+394 silly install resolved     _from: 'gulp-sass@>=3.1.0 <4.0.0',
+394 silly install resolved     _npmVersion: '3.10.10',
+394 silly install resolved     _nodeVersion: '7.2.1',
+394 silly install resolved     _npmUser: { name: 'xzyfer', email: 'xzyfer@gmail.com' },
+394 silly install resolved     dist:
+394 silly install resolved      { shasum: '53dc4b68a1f5ddfe4424ab4c247655269a8b74b7',
+394 silly install resolved        tarball: 'https://registry.npmjs.org/gulp-sass/-/gulp-sass-3.1.0.tgz' },
+394 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+394 silly install resolved     _npmOperationalInternal:
+394 silly install resolved      { host: 'packages-18-east.internal.npmjs.com',
+394 silly install resolved        tmp: 'tmp/gulp-sass-3.1.0.tgz_1483949892518_0.8293058883864433' },
+394 silly install resolved     directories: {},
+394 silly install resolved     _resolved: 'https://registry.npmjs.org/gulp-sass/-/gulp-sass-3.1.0.tgz' },
+394 silly install resolved   { name: 'gulp',
+394 silly install resolved     description: 'The streaming build system',
+394 silly install resolved     version: '3.9.1',
+394 silly install resolved     homepage: 'http://gulpjs.com',
+394 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/gulpjs/gulp.git' },
+394 silly install resolved     author:
+394 silly install resolved      { name: 'Fractal',
+394 silly install resolved        email: 'contact@wearefractal.com',
+394 silly install resolved        url: 'http://wearefractal.com/' },
+394 silly install resolved     tags: [ 'build', 'stream', 'system', 'make', 'tool', 'asset', 'pipeline' ],
+394 silly install resolved     files: [ 'index.js', 'lib', 'bin', 'completion', 'gulp.1' ],
+394 silly install resolved     bin: { gulp: './bin/gulp.js' },
+394 silly install resolved     man: [ 'gulp.1' ],
+394 silly install resolved     dependencies:
+394 silly install resolved      { archy: '^1.0.0',
+394 silly install resolved        chalk: '^1.0.0',
+394 silly install resolved        deprecated: '^0.0.1',
+394 silly install resolved        'gulp-util': '^3.0.0',
+394 silly install resolved        interpret: '^1.0.0',
+394 silly install resolved        liftoff: '^2.1.0',
+394 silly install resolved        minimist: '^1.1.0',
+394 silly install resolved        orchestrator: '^0.3.0',
+394 silly install resolved        'pretty-hrtime': '^1.0.0',
+394 silly install resolved        semver: '^4.1.0',
+394 silly install resolved        tildify: '^1.0.0',
+394 silly install resolved        v8flags: '^2.0.2',
+394 silly install resolved        'vinyl-fs': '^0.3.0' },
+394 silly install resolved     devDependencies:
+394 silly install resolved      { coveralls: '^2.7.0',
+394 silly install resolved        eslint: '^1.7.3',
+394 silly install resolved        'eslint-config-gulp': '^2.0.0',
+394 silly install resolved        'graceful-fs': '^3.0.0',
+394 silly install resolved        istanbul: '^0.3.0',
+394 silly install resolved        jscs: '^2.3.5',
+394 silly install resolved        'jscs-preset-gulp': '^1.0.0',
+394 silly install resolved        'marked-man': '^0.1.3',
+394 silly install resolved        mkdirp: '^0.5.0',
+394 silly install resolved        mocha: '^2.0.1',
+394 silly install resolved        'mocha-lcov-reporter': '^0.0.1',
+394 silly install resolved        q: '^1.0.0',
+394 silly install resolved        rimraf: '^2.2.5',
+394 silly install resolved        should: '^5.0.1' },
+394 silly install resolved     scripts:
+394 silly install resolved      { prepublish: 'marked-man --name gulp docs/CLI.md > gulp.1',
+394 silly install resolved        lint: 'eslint . && jscs *.js bin/ lib/ test/',
+394 silly install resolved        pretest: 'npm run lint',
+394 silly install resolved        test: 'mocha --reporter spec',
+394 silly install resolved        coveralls: 'istanbul cover _mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage' },
+394 silly install resolved     engines: { node: '>= 0.9' },
+394 silly install resolved     license: 'MIT',
+394 silly install resolved     gitHead: '9c14e3a13a73a32e424f144d62566671b2fcdbed',
+394 silly install resolved     bugs: { url: 'https://github.com/gulpjs/gulp/issues' },
+394 silly install resolved     _id: 'gulp@3.9.1',
+394 silly install resolved     _shasum: '571ce45928dd40af6514fc4011866016c13845b4',
+394 silly install resolved     _from: 'gulp@>=3.9.1 <4.0.0',
+394 silly install resolved     _npmVersion: '2.14.14',
+394 silly install resolved     _nodeVersion: '0.10.41',
+394 silly install resolved     _npmUser: { name: 'phated', email: 'blaine@iceddev.com' },
+394 silly install resolved     maintainers: [ [Object], [Object] ],
+394 silly install resolved     dist:
+394 silly install resolved      { shasum: '571ce45928dd40af6514fc4011866016c13845b4',
+394 silly install resolved        tarball: 'https://registry.npmjs.org/gulp/-/gulp-3.9.1.tgz' },
+394 silly install resolved     _npmOperationalInternal:
+394 silly install resolved      { host: 'packages-6-west.internal.npmjs.com',
+394 silly install resolved        tmp: 'tmp/gulp-3.9.1.tgz_1454957415500_0.15343931876122952' },
+394 silly install resolved     directories: {},
+394 silly install resolved     _resolved: 'https://registry.npmjs.org/gulp/-/gulp-3.9.1.tgz' },
+394 silly install resolved   { name: 'jquery.easing',
+394 silly install resolved     version: '1.4.1',
+394 silly install resolved     homepage: 'https://github.com/gdsmith/jquery.easing',
+394 silly install resolved     description: 'A jQuery plugin from GSGD to give advanced easing options',
+394 silly install resolved     author:
+394 silly install resolved      { name: 'George McGinley Smith',
+394 silly install resolved        email: 'george@gsgd.co.uk',
+394 silly install resolved        url: 'http://gsgd.co.uk/' },
+394 silly install resolved     repository:
+394 silly install resolved      { type: 'git',
+394 silly install resolved        url: 'git://github.com/gdsmith/jquery.easing.git' },
+394 silly install resolved     bugs: { url: 'https://github.com/gdsmith/jquery.easing/issues' },
+394 silly install resolved     main: 'jquery.easing.js',
+394 silly install resolved     directories: { example: 'example' },
+394 silly install resolved     scripts:
+394 silly install resolved      { test: 'echo "Use tests in the examples directory" && exit 1',
+394 silly install resolved        uglify: 'uglifyjs jquery.easing.js -o jquery.easing.min.js' },
+394 silly install resolved     devDependencies: { jquery: '>=1.3.0', 'uglify-js': '^2.6.2' },
+394 silly install resolved     keywords: [ 'jquery-plugin', 'ecosystem:jquery' ],
+394 silly install resolved     license: 'BSD-3-Clause',
+394 silly install resolved     gitHead: '9115e1367339bb8c7b8a51b41df4e89371c0ed10',
+394 silly install resolved     _id: 'jquery.easing@1.4.1',
+394 silly install resolved     _shasum: '47982c5836bd758fd48494923c4a101ef6e93e3b',
+394 silly install resolved     _from: 'jquery.easing@>=1.4.1 <2.0.0',
+394 silly install resolved     _npmVersion: '3.5.4',
+394 silly install resolved     _nodeVersion: '5.1.0',
+394 silly install resolved     _npmUser: { name: 'gdsmith', email: 'george@gsgd.co.uk' },
+394 silly install resolved     dist:
+394 silly install resolved      { shasum: '47982c5836bd758fd48494923c4a101ef6e93e3b',
+394 silly install resolved        tarball: 'https://registry.npmjs.org/jquery.easing/-/jquery.easing-1.4.1.tgz' },
+394 silly install resolved     maintainers: [ [Object], [Object] ],
+394 silly install resolved     _npmOperationalInternal:
+394 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+394 silly install resolved        tmp: 'tmp/jquery.easing-1.4.1.tgz_1467379644940_0.24846063321456313' },
+394 silly install resolved     _resolved: 'https://registry.npmjs.org/jquery.easing/-/jquery.easing-1.4.1.tgz' },
+394 silly install resolved   { name: 'jquery',
+394 silly install resolved     title: 'jQuery',
+394 silly install resolved     description: 'JavaScript library for DOM operations',
+394 silly install resolved     version: '3.3.1',
+394 silly install resolved     main: 'dist/jquery.js',
+394 silly install resolved     homepage: 'https://jquery.com',
+394 silly install resolved     author:
+394 silly install resolved      { name: 'JS Foundation and other contributors',
+394 silly install resolved        url: 'https://github.com/jquery/jquery/blob/3.3.1/AUTHORS.txt' },
+394 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/jquery/jquery.git' },
+394 silly install resolved     keywords: [ 'jquery', 'javascript', 'browser', 'library' ],
+394 silly install resolved     bugs: { url: 'https://github.com/jquery/jquery/issues' },
+394 silly install resolved     license: 'MIT',
+394 silly install resolved     dependencies: {},
+394 silly install resolved     devDependencies:
+394 silly install resolved      { 'babel-core': '7.0.0-beta.0',
+394 silly install resolved        'babel-plugin-transform-es2015-for-of': '7.0.0-beta.0',
+394 silly install resolved        commitplease: '2.7.10',
+394 silly install resolved        'core-js': '2.4.1',
+394 silly install resolved        'eslint-config-jquery': '1.0.1',
+394 silly install resolved        grunt: '1.0.1',
+394 silly install resolved        'grunt-babel': '7.0.0',
+394 silly install resolved        'grunt-cli': '1.2.0',
+394 silly install resolved        'grunt-compare-size': '0.4.2',
+394 silly install resolved        'grunt-contrib-uglify': '3.0.1',
+394 silly install resolved        'grunt-contrib-watch': '1.0.0',
+394 silly install resolved        'grunt-eslint': '20.0.0',
+394 silly install resolved        'grunt-git-authors': '3.2.0',
+394 silly install resolved        'grunt-jsonlint': '1.1.0',
+394 silly install resolved        'grunt-karma': '2.0.0',
+394 silly install resolved        'grunt-newer': '1.3.0',
+394 silly install resolved        'grunt-npmcopy': '0.1.0',
+394 silly install resolved        'gzip-js': '0.3.2',
+394 silly install resolved        husky: '0.14.3',
+394 silly install resolved        insight: '0.8.4',
+394 silly install resolved        jsdom: '5.6.1',
+394 silly install resolved        karma: '1.7.0',
+394 silly install resolved        'karma-browserstack-launcher': '1.3.0',
+394 silly install resolved        'karma-chrome-launcher': '2.2.0',
+394 silly install resolved        'karma-firefox-launcher': '1.0.1',
+394 silly install resolved        'karma-qunit': '1.2.1',
+394 silly install resolved        'load-grunt-tasks': '3.5.2',
+394 silly install resolved        'native-promise-only': '0.8.1',
+394 silly install resolved        'promises-aplus-tests': '2.1.2',
+394 silly install resolved        q: '1.5.0',
+394 silly install resolved        'qunit-assert-step': '1.0.3',
+394 silly install resolved        qunitjs: '1.23.1',
+394 silly install resolved        'raw-body': '2.2.0',
+394 silly install resolved        requirejs: '2.3.3',
+394 silly install resolved        sinon: '2.3.7',
+394 silly install resolved        sizzle: '2.3.3',
+394 silly install resolved        'strip-json-comments': '2.0.1',
+394 silly install resolved        testswarm: '1.1.0',
+394 silly install resolved        'uglify-js': '3.3.4' },
+394 silly install resolved     scripts:
+394 silly install resolved      { build: 'npm install && grunt',
+394 silly install resolved        start: 'grunt watch',
+394 silly install resolved        'test:browserless': 'grunt && grunt test:slow',
+394 silly install resolved        'test:browser': 'grunt && grunt karma:main',
+394 silly install resolved        test: 'grunt && grunt test:slow && grunt karma:main',
+394 silly install resolved        jenkins: 'npm run test:browserless',
+394 silly install resolved        precommit: 'grunt lint:newer qunit_fixture',
+394 silly install resolved        commitmsg: 'node node_modules/commitplease' },
+394 silly install resolved     commitplease:
+394 silly install resolved      { nohook: true,
+394 silly install resolved        components: [Object],
+394 silly install resolved        markerPattern: '^((clos|fix|resolv)(e[sd]|ing))|^(refs?)',
+394 silly install resolved        ticketPattern: '^((Closes|Fixes) ([a-zA-Z]{2,}-)[0-9]+)|^(Refs? [^#])' },
+394 silly install resolved     gitHead: '9e8ec3d10fad04748176144f108d7355662ae75e',
+394 silly install resolved     _id: 'jquery@3.3.1',
+394 silly install resolved     _npmVersion: '5.6.0',
+394 silly install resolved     _nodeVersion: '9.3.0',
+394 silly install resolved     _npmUser: { name: 'timmywil', email: '4timmywil@gmail.com' },
+394 silly install resolved     dist:
+394 silly install resolved      { integrity: 'sha512-Ubldcmxp5np52/ENotGxlLe6aGMvmF4R8S6tZjsP6Knsaxd/xp3Zrh50cG93lR6nPXyUFwzN3ZSOQI0wRJNdGg==',
+394 silly install resolved        shasum: '958ce29e81c9790f31be7792df5d4d95fc57fbca',
+394 silly install resolved        tarball: 'https://registry.npmjs.org/jquery/-/jquery-3.3.1.tgz' },
+394 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+394 silly install resolved     _npmOperationalInternal:
+394 silly install resolved      { host: 's3://npm-registry-packages',
+394 silly install resolved        tmp: 'tmp/jquery-3.3.1.tgz_1516469230473_0.5458589680492878' },
+394 silly install resolved     directories: {},
+394 silly install resolved     _shasum: '958ce29e81c9790f31be7792df5d4d95fc57fbca',
+394 silly install resolved     _resolved: 'https://registry.npmjs.org/jquery/-/jquery-3.3.1.tgz',
+394 silly install resolved     _from: 'jquery@3.3.1' },
+394 silly install resolved   { name: 'browser-sync',
+394 silly install resolved     description: 'Live CSS Reload & Browser Syncing',
+394 silly install resolved     version: '2.23.6',
+394 silly install resolved     homepage: 'https://browsersync.io/',
+394 silly install resolved     author: { name: 'Shane Osbourne' },
+394 silly install resolved     repository:
+394 silly install resolved      { type: 'git',
+394 silly install resolved        url: 'git+https://github.com/BrowserSync/browser-sync.git' },
+394 silly install resolved     license: 'Apache-2.0',
+394 silly install resolved     main: 'dist/index.js',
+394 silly install resolved     bin: { 'browser-sync': 'dist/bin.js' },
+394 silly install resolved     files: [ 'dist', 'certs', 'templates', 'cli-options', 'client/dist' ],
+394 silly install resolved     engines: { node: '>= 0.8.0' },
+394 silly install resolved     scripts:
+394 silly install resolved      { env: 'node ./test/env.js',
+394 silly install resolved        test: 'npm run env && npm run unit',
+394 silly install resolved        lint: 'prettier \'lib/**/*\' \'examples/*\' \'test/specs/**/*\' \'test/specs/*.js\'  --write --tab-width 4',
+394 silly install resolved        pro: 'protractor test/protractor/config.single.js',
+394 silly install resolved        'pro-local': 'node test/protractor/setup.js',
+394 silly install resolved        unit: 'mocha --recursive test/specs --timeout 10000 --bail',
+394 silly install resolved        cover: 'npm run env && npm run cover-local && npm run coveralls',
+394 silly install resolved        'cover-local': 'istanbul cover -x lodash.custom.js _mocha -- --timeout 10000 --recursive ./test/specs',
+394 silly install resolved        coveralls: 'istanbul-coveralls',
+394 silly install resolved        'pre-release': 'npm test && npm run pro-local && npm run pro',
+394 silly install resolved        lodash: 'lodash include=isUndefined,isFunction,toArray,includes,union,each,isString,merge,isObject,set exports=node',
+394 silly install resolved        prepublish: 'cb build-all' },
+394 silly install resolved     dependencies:
+394 silly install resolved      { 'browser-sync-ui': 'v1.0.1',
+394 silly install resolved        'bs-recipes': '1.3.4',
+394 silly install resolved        chokidar: '1.7.0',
+394 silly install resolved        connect: '3.5.0',
+394 silly install resolved        'connect-history-api-fallback': '^1.5.0',
+394 silly install resolved        'dev-ip': '^1.0.1',
+394 silly install resolved        'easy-extender': '2.3.2',
+394 silly install resolved        'eazy-logger': '3.0.2',
+394 silly install resolved        'emitter-steward': '^1.0.0',
+394 silly install resolved        etag: '^1.8.1',
+394 silly install resolved        fresh: '^0.5.2',
+394 silly install resolved        'fs-extra': '3.0.1',
+394 silly install resolved        'http-proxy': '1.15.2',
+394 silly install resolved        immutable: '3.8.2',
+394 silly install resolved        localtunnel: '1.8.3',
+394 silly install resolved        micromatch: '2.3.11',
+394 silly install resolved        opn: '4.0.2',
+394 silly install resolved        portscanner: '2.1.1',
+394 silly install resolved        qs: '6.2.1',
+394 silly install resolved        'resp-modifier': '6.0.2',
+394 silly install resolved        rx: '4.1.0',
+394 silly install resolved        'serve-index': '1.8.0',
+394 silly install resolved        'serve-static': '1.12.2',
+394 silly install resolved        'server-destroy': '1.0.1',
+394 silly install resolved        'socket.io': '2.0.4',
+394 silly install resolved        'ua-parser-js': '0.7.12',
+394 silly install resolved        yargs: '6.4.0' },
+394 silly install resolved     devDependencies:
+394 silly install resolved      { '@types/node': '^8.5.2',
+394 silly install resolved        'browser-sync-spa': '1.0.3',
+394 silly install resolved        'bs-html-injector': '3.0.3',
+394 silly install resolved        'bs-latency': '1.0.0',
+394 silly install resolved        'bs-rewrite-rules': '2.0.0',
+394 silly install resolved        'bs-snippet-injector': '2.0.1',
+394 silly install resolved        chai: '3.5.0',
+394 silly install resolved        chalk: '1.1.3',
+394 silly install resolved        compression: '1.6.2',
+394 silly install resolved        crossbow: 'latest',
+394 silly install resolved        'generate-changelog': '^1.7.0',
+394 silly install resolved        'graceful-fs': '4.1.9',
+394 silly install resolved        gulp: '3.9.1',
+394 silly install resolved        'gulp-contribs': '0.0.3',
+394 silly install resolved        'gulp-conventional-changelog': '1.1.0',
+394 silly install resolved        'gulp-filter': '4.0.0',
+394 silly install resolved        http2: '^3.3.6',
+394 silly install resolved        istanbul: '0.4.5',
+394 silly install resolved        'istanbul-coveralls': '1.0.3',
+394 silly install resolved        'lodash-cli': '4.17.4',
+394 silly install resolved        mocha: '3.4.1',
+394 silly install resolved        prettier: '^1.9.2',
+394 silly install resolved        q: '1.4.1',
+394 silly install resolved        request: '2.79.0',
+394 silly install resolved        requirejs: '^2.3.5',
+394 silly install resolved        rimraf: '2.5.4',
+394 silly install resolved        sinon: '1.17.5',
+394 silly install resolved        'socket.io-client': '^2.0.4',
+394 silly install resolved        'source-map-support': '^0.5.0',
+394 silly install resolved        supertest: '2.0.0',
+394 silly install resolved        typescript: '^2.6.2',
+394 silly install resolved        vinyl: '1.2.0' },
+394 silly install resolved     keywords: [ 'browser sync', 'css', 'live reload', 'sync' ],
+394 silly install resolved     gitHead: 'ca41bf1668964d676befd664e163a85f1478051d',
+394 silly install resolved     bugs: { url: 'https://github.com/BrowserSync/browser-sync/issues' },
+394 silly install resolved     _id: 'browser-sync@2.23.6',
+394 silly install resolved     _npmVersion: '5.5.1',
+394 silly install resolved     _nodeVersion: '8.9.3',
+394 silly install resolved     _npmUser: { name: 'shakyshane', email: 'shakyshane@gmail.com' },
+394 silly install resolved     dist:
+394 silly install resolved      { integrity: 'sha512-loCO5NQKZXfBJrEvmLwF1TPSECCsPopNd29qduoysLmpw8op2lgolGMjz3oI/MjG4duzB9TfDs7k58djRSwPwg==',
+394 silly install resolved        shasum: 'ed0721c92e5b98c71b7bf839b39092ac9f220650',
+394 silly install resolved        tarball: 'https://registry.npmjs.org/browser-sync/-/browser-sync-2.23.6.tgz' },
+394 silly install resolved     maintainers: [ [Object] ],
+394 silly install resolved     _npmOperationalInternal:
+394 silly install resolved      { host: 's3://npm-registry-packages',
+394 silly install resolved        tmp: 'tmp/browser-sync-2.23.6.tgz_1516813917482_0.8658194863237441' },
+394 silly install resolved     directories: {},
+394 silly install resolved     _shasum: 'ed0721c92e5b98c71b7bf839b39092ac9f220650',
+394 silly install resolved     _resolved: 'https://registry.npmjs.org/browser-sync/-/browser-sync-2.23.6.tgz',
+394 silly install resolved     _from: 'browser-sync@2.23.6' },
+394 silly install resolved   { name: 'font-awesome',
+394 silly install resolved     description: 'The iconic font and CSS framework',
+394 silly install resolved     version: '4.7.0',
+394 silly install resolved     style: 'css/font-awesome.css',
+394 silly install resolved     keywords: [ 'font', 'awesome', 'fontawesome', 'icon', 'font', 'bootstrap' ],
+394 silly install resolved     homepage: 'http://fontawesome.io/',
+394 silly install resolved     bugs: { url: 'http://github.com/FortAwesome/Font-Awesome/issues' },
+394 silly install resolved     author:
+394 silly install resolved      { name: 'Dave Gandy',
+394 silly install resolved        email: 'dave@fontawesome.io',
+394 silly install resolved        url: 'http://twitter.com/davegandy' },
+394 silly install resolved     repository:
+394 silly install resolved      { type: 'git',
+394 silly install resolved        url: 'git+https://github.com/FortAwesome/Font-Awesome.git' },
+394 silly install resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+394 silly install resolved     license: '(OFL-1.1 AND MIT)',
+394 silly install resolved     dependencies: {},
+394 silly install resolved     engines: { node: '>=0.10.3' },
+394 silly install resolved     gitHead: 'a8386aae19e200ddb0f6845b5feeee5eb7013687',
+394 silly install resolved     _id: 'font-awesome@4.7.0',
+394 silly install resolved     scripts: {},
+394 silly install resolved     _shasum: '8fa8cf0411a1a31afd07b06d2902bb9fc815a133',
+394 silly install resolved     _from: 'font-awesome@4.7.0',
+394 silly install resolved     _npmVersion: '3.3.12',
+394 silly install resolved     _nodeVersion: '5.5.0',
+394 silly install resolved     _npmUser: { name: 'juliankrispel', email: 'julian@goodafternoon.co' },
+394 silly install resolved     dist:
+394 silly install resolved      { shasum: '8fa8cf0411a1a31afd07b06d2902bb9fc815a133',
+394 silly install resolved        tarball: 'https://registry.npmjs.org/font-awesome/-/font-awesome-4.7.0.tgz' },
+394 silly install resolved     maintainers: [ [Object] ],
+394 silly install resolved     _npmOperationalInternal:
+394 silly install resolved      { host: 'packages-18-east.internal.npmjs.com',
+394 silly install resolved        tmp: 'tmp/font-awesome-4.7.0.tgz_1477344817307_0.6990068354643881' },
+394 silly install resolved     directories: {},
+394 silly install resolved     _resolved: 'https://registry.npmjs.org/font-awesome/-/font-awesome-4.7.0.tgz' },
+394 silly install resolved   { name: 'bootstrap',
+394 silly install resolved     description: 'The most popular front-end framework for developing responsive, mobile first projects on the web.',
+394 silly install resolved     version: '4.0.0',
+394 silly install resolved     keywords:
+394 silly install resolved      [ 'css',
+394 silly install resolved        'sass',
+394 silly install resolved        'mobile-first',
+394 silly install resolved        'responsive',
+394 silly install resolved        'front-end',
+394 silly install resolved        'framework',
+394 silly install resolved        'web' ],
+394 silly install resolved     homepage: 'https://getbootstrap.com',
+394 silly install resolved     author:
+394 silly install resolved      { name: 'The Bootstrap Authors',
+394 silly install resolved        url: 'https://github.com/twbs/bootstrap/graphs/contributors' },
+394 silly install resolved     contributors: [ [Object] ],
+394 silly install resolved     scripts:
+394 silly install resolved      { bundlesize: 'bundlesize',
+394 silly install resolved        css: 'npm-run-all --parallel css-lint* css-compile* --sequential css-prefix* css-minify*',
+394 silly install resolved        'css-main': 'npm-run-all --parallel css-lint css-compile --sequential css-prefix css-minify',
+394 silly install resolved        'css-docs': 'npm-run-all --parallel css-lint-docs css-compile-docs --sequential css-prefix-docs css-minify-docs',
+394 silly install resolved        'css-compile': 'node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 scss/bootstrap.scss dist/css/bootstrap.css && node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 scss/bootstrap-grid.scss dist/css/bootstrap-grid.css && node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 scss/bootstrap-reboot.scss dist/css/bootstrap-reboot.css',
+394 silly install resolved        'css-compile-docs': 'node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 assets/scss/docs.scss assets/css/docs.min.css',
+394 silly install resolved        'css-lint': 'stylelint --syntax scss "scss/**/*.scss"',
+394 silly install resolved        'css-lint-docs': 'stylelint --syntax scss "assets/scss/*.scss" && stylelint "docs/**/*.css"',
+394 silly install resolved        'css-lint-vars': 'node build/lint-vars.js scss/ assets/scss/',
+394 silly install resolved        'css-prefix': 'postcss --config build/postcss.config.js --replace "dist/css/*.css" "!dist/css/*.min.css"',
+394 silly install resolved        'css-prefix-docs': 'postcss --config build/postcss.config.js --replace "assets/css/docs.min.css" "docs/**/*.css"',
+394 silly install resolved        'css-minify': 'cleancss --level 1 --source-map --source-map-inline-sources --output dist/css/bootstrap.min.css dist/css/bootstrap.css && cleancss --level 1 --source-map --source-map-inline-sources --output dist/css/bootstrap-grid.min.css dist/css/bootstrap-grid.css && cleancss --level 1 --source-map --source-map-inline-sources --output dist/css/bootstrap-reboot.min.css dist/css/bootstrap-reboot.css',
+394 silly install resolved        'css-minify-docs': 'cleancss --level 1 --source-map --source-map-inline-sources --output assets/css/docs.min.css assets/css/docs.min.css',
+394 silly install resolved        js: 'npm-run-all js-lint* js-compile js-minify',
+394 silly install resolved        'js-main': 'npm-run-all js-lint js-compile js-minify',
+394 silly install resolved        'js-docs': 'npm-run-all js-lint-docs js-minify-docs',
+394 silly install resolved        'js-lint': 'eslint js/ build/',
+394 silly install resolved        'js-lint-docs': 'eslint assets/js/ docs/ sw.js',
+394 silly install resolved        'js-compile': 'npm-run-all --parallel js-compile-*',
+394 silly install resolved        'js-compile-standalone': 'rollup --environment BUNDLE:false --config build/rollup.config.js --sourcemap',
+394 silly install resolved        'js-compile-bundle': 'rollup --environment BUNDLE:true --config build/rollup.config.js --sourcemap',
+394 silly install resolved        'js-compile-plugins': 'cross-env PLUGINS=true babel js/src/ --out-dir js/dist/ --source-maps',
+394 silly install resolved        'js-minify': 'npm-run-all --parallel js-minify-*',
+394 silly install resolved        'js-minify-standalone': 'uglifyjs --compress typeofs=false --mangle --comments "/^!/" --source-map "content=dist/js/bootstrap.js.map,includeSources,url=bootstrap.min.js.map" --output dist/js/bootstrap.min.js dist/js/bootstrap.js',
+394 silly install resolved        'js-minify-bundle': 'uglifyjs --compress typeofs=false --mangle --comments "/^!/" --source-map "content=dist/js/bootstrap.bundle.js.map,includeSources,url=bootstrap.bundle.min.js.map" --output dist/js/bootstrap.bundle.min.js dist/js/bootstrap.bundle.js',
+394 silly install resolved        'js-minify-docs': 'uglifyjs --mangle --comments "/^!/" --output assets/js/docs.min.js assets/js/vendor/anchor.min.js assets/js/vendor/clipboard.min.js assets/js/vendor/holder.min.js "assets/js/src/*.js"',
+394 silly install resolved        'js-test': 'npm-run-all --parallel js-test-karma*',
+394 silly install resolved        'js-test-karma': 'karma start js/tests/karma.conf.js',
+394 silly install resolved        'js-test-karma-old': 'cross-env USE_OLD_JQUERY=true npm run js-test-karma',
+394 silly install resolved        'js-test-cloud': 'ruby -r webrick -e "s = WEBrick::HTTPServer.new(:Port => 3000, :DocumentRoot => Dir.pwd, :Logger => WEBrick::Log.new(\'/dev/null\'), :AccessLog => []); trap(\'INT\') { s.shutdown }; s.start" & node build/saucelabs-unit-test.js',
+394 silly install resolved        docs: 'npm-run-all --parallel css-docs js-docs --sequential docs-compile docs-lint',
+394 silly install resolved        'docs-compile': 'bundle exec jekyll build',
+394 silly install resolved        'postdocs-compile': 'npm run docs-workbox-precache',
+394 silly install resolved        'docs-github': 'shx echo "github: true" > twbsconfig.yml && npm run docs-compile -- --config _config.yml,twbsconfig.yml && shx rm ./twbsconfig.yml',
+394 silly install resolved        'docs-github-serve': 'bundle exec jekyll serve --skip-initial-build --no-watch',
+394 silly install resolved        'docs-lint': 'npm-run-all docs-lint-*',
+394 silly install resolved        'docs-lint-htmllint': 'htmllint --rc build/.htmllintrc "_gh_pages/**/*.html" "js/tests/**/*.html"',
+394 silly install resolved        'docs-lint-vnu-jar': 'node build/vnu-jar.js',
+394 silly install resolved        'docs-serve': 'bundle exec jekyll serve',
+394 silly install resolved        'docs-upload-preview': 'build/upload-preview.sh',
+394 silly install resolved        'docs-workbox-precache': 'node build/workbox.js',
+394 silly install resolved        'maintenance-dependencies': 'ncu -a -x jquery && npm update && bundle update && shx echo "Manually update assets/js/vendor/*, js/tests/vendor/* and .travis.yml"',
+394 silly install resolved        'release-sri': 'node build/generate-sri.js',
+394 silly install resolved        'release-version': 'node build/change-version.js',
+394 silly install resolved        'release-zip': 'cd dist/ && zip -r9 bootstrap-$npm_package_version-dist.zip * && shx mv bootstrap-$npm_package_version-dist.zip ..',
+394 silly install resolved        dist: 'npm-run-all --parallel css js',
+394 silly install resolved        test: 'npm-run-all dist js-test docs-compile docs-lint bundlesize',
+394 silly install resolved        watch: 'npm-run-all --parallel watch-css watch-js',
+394 silly install resolved        'watch-css': 'nodemon --ignore js/ --ignore dist/ -e scss -x "npm run css"',
+394 silly install resolved        'watch-js': 'nodemon --ignore scss/ --ignore js/dist/ --ignore dist/ -e js -x "npm run js-compile"' },
+394 silly install resolved     style: 'dist/css/bootstrap.css',
+394 silly install resolved     sass: 'scss/bootstrap.scss',
+394 silly install resolved     main: 'dist/js/bootstrap',
+394 silly install resolved     repository:
+394 silly install resolved      { type: 'git',
+394 silly install resolved        url: 'git+https://github.com/twbs/bootstrap.git' },
+394 silly install resolved     bugs: { url: 'https://github.com/twbs/bootstrap/issues' },
+394 silly install resolved     license: 'MIT',
+394 silly install resolved     dependencies: {},
+394 silly install resolved     peerDependencies: { jquery: '1.9.1 - 3', 'popper.js': '^1.12.9' },
+394 silly install resolved     devDependencies:
+394 silly install resolved      { '@babel/cli': '7.0.0-beta.37',
+394 silly install resolved        '@babel/core': '7.0.0-beta.37',
+394 silly install resolved        '@babel/preset-env': '7.0.0-beta.37',
+394 silly install resolved        autoprefixer: '^7.2.4',
+394 silly install resolved        'babel-eslint': '^8.2.1',
+394 silly install resolved        'babel-plugin-transform-es2015-modules-strip': '^0.1.1',
+394 silly install resolved        bundlesize: '^0.15.3',
+394 silly install resolved        'clean-css-cli': '^4.1.10',
+394 silly install resolved        'cross-env': '^5.1.3',
+394 silly install resolved        eslint: '^4.15.0',
+394 silly install resolved        'eslint-plugin-compat': '^2.1.0',
+394 silly install resolved        glob: '^7.1.2',
+394 silly install resolved        'htmllint-cli': '^0.0.6',
+394 silly install resolved        jsunitsaucelabs: '^1.3.0',
+394 silly install resolved        karma: '^2.0.0',
+394 silly install resolved        'karma-chrome-launcher': '^2.2.0',
+394 silly install resolved        'karma-detect-browsers': '^2.2.6',
+394 silly install resolved        'karma-firefox-launcher': '^1.1.0',
+394 silly install resolved        'karma-qunit': '^1.2.1',
+394 silly install resolved        'node-sass': '^4.7.2',
+394 silly install resolved        nodemon: '^1.14.10',
+394 silly install resolved        'npm-run-all': '^4.1.2',
+394 silly install resolved        'popper.js': '^1.12.9',
+394 silly install resolved        'postcss-cli': '^4.1.1',
+394 silly install resolved        qunitjs: '^2.4.1',
+394 silly install resolved        rollup: '^0.53.4',
+394 silly install resolved        'rollup-plugin-babel': '4.0.0-beta.0',
+394 silly install resolved        'rollup-plugin-node-resolve': '^3.0.2',
+394 silly install resolved        shelljs: '^0.7.8',
+394 silly install resolved        shx: '^0.2.2',
+394 silly install resolved        'sri-toolbox': '^0.2.0',
+394 silly install resolved        stylelint: '^8.4.0',
+394 silly install resolved        'stylelint-config-recommended-scss': '^3.0.0',
+394 silly install resolved        'stylelint-config-standard': '^18.0.0',
+394 silly install resolved        'stylelint-order': '^0.8.0',
+394 silly install resolved        'stylelint-scss': '^2.2.0',
+394 silly install resolved        'uglify-js': '^3.3.5',
+394 silly install resolved        'vnu-jar': '^17.11.1',
+394 silly install resolved        'workbox-build': '^2.1.2' },
+394 silly install resolved     engines: { node: '>=6' },
+394 silly install resolved     files: [ 'dist/', 'js/{src,dist}/', 'scss/' ],
+394 silly install resolved     browserslist:
+394 silly install resolved      [ 'last 1 major version',
+394 silly install resolved        '>= 1%',
+394 silly install resolved        'Chrome >= 45',
+394 silly install resolved        'Firefox >= 38',
+394 silly install resolved        'Edge >= 12',
+394 silly install resolved        'Explorer >= 10',
+394 silly install resolved        'iOS >= 9',
+394 silly install resolved        'Safari >= 9',
+394 silly install resolved        'Android >= 4.4',
+394 silly install resolved        'Opera >= 30' ],
+394 silly install resolved     bundlesize:
+394 silly install resolved      [ [Object],
+394 silly install resolved        [Object],
+394 silly install resolved        [Object],
+394 silly install resolved        [Object],
+394 silly install resolved        [Object],
+394 silly install resolved        [Object],
+394 silly install resolved        [Object],
+394 silly install resolved        [Object],
+394 silly install resolved        [Object],
+394 silly install resolved        [Object] ],
+394 silly install resolved     jspm:
+394 silly install resolved      { registry: 'npm',
+394 silly install resolved        main: 'js/bootstrap',
+394 silly install resolved        directories: [Object],
+394 silly install resolved        shim: [Object],
+394 silly install resolved        dependencies: {},
+394 silly install resolved        peerDependencies: [Object] },
+394 silly install resolved     gitHead: '8a628b943cf31ca0a002c08af661a95772480225',
+394 silly install resolved     _id: 'bootstrap@4.0.0',
+394 silly install resolved     _npmVersion: '5.5.1',
+394 silly install resolved     _nodeVersion: '8.9.1',
+394 silly install resolved     _npmUser: { name: 'twbs', email: 'getbootstrap@gmail.com' },
+394 silly install resolved     dist:
+394 silly install resolved      { integrity: 'sha512-gulJE5dGFo6Q61V/whS6VM4WIyrlydXfCgkE+Gxe5hjrJ8rXLLZlALq7zq2RPhOc45PSwQpJkrTnc2KgD6cvmA==',
+394 silly install resolved        shasum: 'ceb03842c145fcc1b9b4e15da2a05656ba68469a',
+394 silly install resolved        tarball: 'https://registry.npmjs.org/bootstrap/-/bootstrap-4.0.0.tgz' },
+394 silly install resolved     maintainers: [ [Object] ],
+394 silly install resolved     _npmOperationalInternal:
+394 silly install resolved      { host: 's3://npm-registry-packages',
+394 silly install resolved        tmp: 'tmp/bootstrap-4.0.0.tgz_1516300461301_0.2533162727486342' },
+394 silly install resolved     directories: {},
+394 silly install resolved     _shasum: 'ceb03842c145fcc1b9b4e15da2a05656ba68469a',
+394 silly install resolved     _resolved: 'https://registry.npmjs.org/bootstrap/-/bootstrap-4.0.0.tgz',
+394 silly install resolved     _from: 'bootstrap@4.0.0' } ]
+395 info install gulp-clean-css@3.9.2 into /Users/chiragagarwal/Downloads/startbootstrap-agency-gh-pages
+396 info install gulp-header@2.0.1 into /Users/chiragagarwal/Downloads/startbootstrap-agency-gh-pages
+397 info install gulp-rename@1.2.2 into /Users/chiragagarwal/Downloads/startbootstrap-agency-gh-pages
+398 info install gulp-uglify@3.0.0 into /Users/chiragagarwal/Downloads/startbootstrap-agency-gh-pages
+399 info install gulp-sass@3.1.0 into /Users/chiragagarwal/Downloads/startbootstrap-agency-gh-pages
+400 info install gulp@3.9.1 into /Users/chiragagarwal/Downloads/startbootstrap-agency-gh-pages
+401 info install jquery.easing@1.4.1 into /Users/chiragagarwal/Downloads/startbootstrap-agency-gh-pages
+402 info install jquery@3.3.1 into /Users/chiragagarwal/Downloads/startbootstrap-agency-gh-pages
+403 info install browser-sync@2.23.6 into /Users/chiragagarwal/Downloads/startbootstrap-agency-gh-pages
+404 info install font-awesome@4.7.0 into /Users/chiragagarwal/Downloads/startbootstrap-agency-gh-pages
+405 info install bootstrap@4.0.0 into /Users/chiragagarwal/Downloads/startbootstrap-agency-gh-pages
+406 info installOne gulp-clean-css@3.9.2
+407 verbose installOne of gulp-clean-css to /Users/chiragagarwal/Downloads/startbootstrap-agency-gh-pages not in flight; installing
+408 info installOne gulp-header@2.0.1
+409 verbose installOne of gulp-header to /Users/chiragagarwal/Downloads/startbootstrap-agency-gh-pages not in flight; installing
+410 info installOne gulp-rename@1.2.2
+411 verbose installOne of gulp-rename to /Users/chiragagarwal/Downloads/startbootstrap-agency-gh-pages not in flight; installing
+412 info installOne gulp-uglify@3.0.0
+413 verbose installOne of gulp-uglify to /Users/chiragagarwal/Downloads/startbootstrap-agency-gh-pages not in flight; installing
+414 info installOne gulp-sass@3.1.0
+415 verbose installOne of gulp-sass to /Users/chiragagarwal/Downloads/startbootstrap-agency-gh-pages not in flight; installing
+416 info installOne gulp@3.9.1
+417 verbose installOne of gulp to /Users/chiragagarwal/Downloads/startbootstrap-agency-gh-pages not in flight; installing
+418 info installOne jquery.easing@1.4.1
+419 verbose installOne of jquery.easing to /Users/chiragagarwal/Downloads/startbootstrap-agency-gh-pages not in flight; installing
+420 info installOne jquery@3.3.1
+421 verbose installOne of jquery to /Users/chiragagarwal/Downloads/startbootstrap-agency-gh-pages not in flight; installing
+422 info installOne browser-sync@2.23.6
+423 verbose installOne of browser-sync to /Users/chiragagarwal/Downloads/startbootstrap-agency-gh-pages not in flight; installing
+424 info installOne font-awesome@4.7.0
+425 verbose installOne of font-awesome to /Users/chiragagarwal/Downloads/startbootstrap-agency-gh-pages not in flight; installing
+426 info installOne bootstrap@4.0.0
+427 verbose installOne of bootstrap to /Users/chiragagarwal/Downloads/startbootstrap-agency-gh-pages not in flight; installing
+428 warn locking Error: EACCES, open '/Users/chiragagarwal/.npm/_locks/gulp-clean-css-44840e34198cf847.lock'
+428 warn locking     at Error (native)
+428 warn locking  /Users/chiragagarwal/.npm/_locks/gulp-clean-css-44840e34198cf847.lock failed { [Error: EACCES, open '/Users/chiragagarwal/.npm/_locks/gulp-clean-css-44840e34198cf847.lock']
+428 warn locking   errno: -13,
+428 warn locking   code: 'EACCES',
+428 warn locking   path: '/Users/chiragagarwal/.npm/_locks/gulp-clean-css-44840e34198cf847.lock' }
+429 verbose stack Error: Attempt to unlock /Users/chiragagarwal/Downloads/startbootstrap-agency-gh-pages/node_modules/gulp-clean-css, which hasn't been locked
+429 verbose stack     at unlock (/usr/local/lib/node_modules/npm/lib/utils/locker.js:66:11)
+429 verbose stack     at cb (/usr/local/lib/node_modules/npm/lib/install.js:1017:5)
+429 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:1021:20
+429 verbose stack     at /usr/local/lib/node_modules/npm/lib/utils/locker.js:40:9
+429 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:149:38)
+429 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:177:38
+429 verbose stack     at FSReqWrap.oncomplete (fs.js:95:15)
+430 verbose cwd /Users/chiragagarwal/Downloads/startbootstrap-agency-gh-pages
+431 error Darwin 17.4.0
+432 error argv "/usr/local/bin/node" "/usr/local/lib/node_modules/npm/bin/npm-cli.js" "install" "--scripts-prepend-node-path=auto"
+433 error node v0.12.7
+434 error npm  v2.11.3
+435 error Attempt to unlock /Users/chiragagarwal/Downloads/startbootstrap-agency-gh-pages/node_modules/gulp-clean-css, which hasn't been locked
+436 error If you need help, you may report this error at:
+436 error     <https://github.com/npm/npm/issues>
+437 verbose exit [ 1, true ]
